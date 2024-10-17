@@ -1,1 +1,1 @@
-# -MeXE402_Midterm_Atienza-Manalo
+# MeXE402_Midterm_Atienza-Manalo
