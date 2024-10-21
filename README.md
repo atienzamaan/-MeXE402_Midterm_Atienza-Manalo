@@ -6,6 +6,11 @@
 #### **Dataset Description**
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### **Key Features**:
+  -`Years of Experience`:The number of years an employee has worked in their field.
+  - `Salary`:The corresponding salary of the employee (in dollars).
+  - `job`: The type of job the client has (categorical).
+
+  
 
 ##### Project Objectives: What you aim to achieve with your analyses.
 
