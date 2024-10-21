@@ -4,7 +4,7 @@
 ## Linear Regression
 #### Introduction:  Salary Data Analysis
 ##### Explanation
-######This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
+This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### Dataset:
 ##### Explanation
 
