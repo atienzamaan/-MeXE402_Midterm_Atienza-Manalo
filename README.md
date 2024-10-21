@@ -2,11 +2,11 @@
 #### Both Linear Regression and Logistic Regression are foundational techniques in machine learning used for different types of problems. While they share similarities in their structure, they are applied to distinct tasks and have different mathematical foundations. This repository will serve as our midterm exam that is designed to assess our understanding of Linear Regression and Logistic Regression through practical application on real-world datasets.
 
 ## Linear Regression
-#### Introduction:  Salary Data Analysis
-##### Explanation
+### **Introduction**
+#### **Dataset Description**
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
-#### Dataset:
-##### Explanation
+#### **Key Features**:
+
 ##### Project Objectives: What you aim to achieve with your analyses.
 
 ------
