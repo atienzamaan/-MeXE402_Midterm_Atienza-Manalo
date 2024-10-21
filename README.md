@@ -9,11 +9,35 @@ This dataset contains information about salaries, years of experience, and other
 ##### Explanation
 ##### Project Objectives: What you aim to achieve with your analyses.
 
-## Logistic Regression 
-#### Introduction: Bank Marketing Dataset
-##### Predicting Term Deposit Suscriptions
-###### Find the best strategies to improve for the next marketing campaign. How can the financial institution have a greater effectiveness for future marketing campaigns? In order to answer this, we have to analyze the last marketing campaign the bank performed and identify the patterns that will help us find conclusions in order to develop future strategies.
+------
 
-#### Dataset:
+## Logistic Regression 
+### **Introduction**
+#### **Dataset Description**
+##### The dataset used in this analysis is the **Bank Marketing Dataset** from a marketing campaign conducted by a Portuguese financial institution. The dataset contains information on client attributes, previous marketing campaign details, and whether the client subscribed to a term deposit.
+
+#### **Key Features**:
+- **Client-related features**:
+  - `age`: The age of the client.
+  - `job`: The type of job the client has (categorical).
+  - `marital`: The client’s marital status (categorical).
+  - `education`: The client’s level of education (ordinal).
+  
+- **Campaign-related features**:
+  - `contact`: The type of communication used during the campaign.
+  - `previous`: Number of contacts performed before this campaign.
+  
+- **Output**:
+  - `y`: The target variable indicating whether the client subscribed to a term deposit (`yes` or `no`).
+
+### **Objective of the Dataset**:
+The objective is to build a model to predict whether a client will subscribe to a term deposit based on the client’s attributes and the previous campaign's performance.
+
+---
+
+
+
+
 ##### Explanation
 ![image](https://github.com/user-attachments/assets/be9096cd-e27a-44e2-b681-33ca4e35f352)
+##### Project Objectives:
