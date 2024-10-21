@@ -10,8 +10,7 @@ This dataset contains information about salaries, years of experience, and other
   - `Years of Experience`: The number of years an employee has worked in their field.
 #### **Dependent Variable**:
    - `Salary`:The corresponding salary of the employee (in dollars).
-
-##### Project Objectives: What you aim to achieve with your analyses.
+### **Objective of the Dataset**:
 
 ------
 
