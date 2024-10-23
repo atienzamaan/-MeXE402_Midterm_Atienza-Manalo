@@ -51,7 +51,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
  
  ![image](https://github.com/user-attachments/assets/908d47e8-4ff8-4f14-9d2b-78c719e07b2a)
 
-<h2 align="center"> <small>FIGURE 2.1:Removing Data</small> </h2>
+<h2 align="center"> <small>FIGURE 2.1:Removing Unnecessary</small> </h2>
 
 Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
 
