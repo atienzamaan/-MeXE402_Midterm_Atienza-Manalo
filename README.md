@@ -16,8 +16,8 @@ This dataset contains information about salaries, years of experience, and other
 The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
 ### **Analysis**
 ## Data Preprocessing
-1.	Handle Missing Values
 
+### **1.	Handle Missing Values**
    
  <h2 align="center"> 
   
@@ -41,12 +41,10 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 >Result: Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
 
 
-#### *2. Dealing with missing data in your dataset.**
+### **2. Dealing with missing data in your dataset**
 
 
-
->>1	Removing records with missing values.
-
+>>2.1	Removing records with missing values.
 
 
 <h2 align="center"> 
@@ -57,7 +55,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
 
->>2 Saving the cleaned Dataset.
+>>2.2 Saving the cleaned Dataset.
 
 <h2 align="center"> 
  
