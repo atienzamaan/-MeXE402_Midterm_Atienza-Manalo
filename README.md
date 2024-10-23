@@ -17,8 +17,12 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 ### **Analysis**
 ## Data Preprocessing
 1.	Handle Missing Values
-
+   
+<h2 align="center">The code outputs a Series showing the number of missing values in four columns of the dataset.
+  
 ![Screenshot 2024-10-23 153637](https://github.com/user-attachments/assets/9d7c88dd-dc1c-47de-95f4-16e1b4979168) 
+
+
 
 ![12](https://github.com/user-attachments/assets/bad59397-35a1-4635-9781-c6419bde4a00)
 
