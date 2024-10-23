@@ -63,8 +63,6 @@ Figure 1.3 codes ensures that any missing values (NaNs) in the four specified co
  
 ![image](https://github.com/user-attachments/assets/93d7de5d-4fc6-4861-826c-156eb8cf82f8)
 
-<h2 align="center"> <small>FIGURE 1.4(Clean Dataset)</small> </h2>
-
 <h2 align="center"> 
  
 ![image](https://github.com/user-attachments/assets/053e362a-53d8-4e4a-ba68-5780666d63e9)
