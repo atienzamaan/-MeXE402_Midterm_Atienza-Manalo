@@ -47,13 +47,13 @@ Result: The code outputs the rows that contain missing values across any of the 
 
 >1	Removing records with missing values.
 
-<h2 align="center"> <small>FIGURE 1.3(Cleaning the Dataset)</small> </h2>
+
 
 <h2 align="center"> 
  
  ![13](https://github.com/user-attachments/assets/4b642287-9739-4de0-81ba-50988d832c5c)
 
-
+<h2 align="center"> <small>FIGURE 1.3(Cleaning the Dataset)</small> </h2>
 
 >2.2	Imputing values using methods such as mean, median, or mode, or more advanced techniques like K-nearest neighbors.
 
