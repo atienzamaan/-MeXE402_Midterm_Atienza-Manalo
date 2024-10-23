@@ -63,6 +63,12 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 <h2 align="center"> <small>FIGURE 1.4(Clean Dataset)</small> </h2>
 
+<h2 align="center"> 
+ 
+![image](https://github.com/user-attachments/assets/053e362a-53d8-4e4a-ba68-5780666d63e9)
+
+<h2 align="center"> <small>FIGURE 1.4(FILE LOCATION)</small> </h2>
+
 
 2.	Label Encoder 
 >A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
