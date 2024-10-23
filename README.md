@@ -20,6 +20,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
    
  <h2 align="center"> 
+  
 ![Screenshot 2024-10-23 153637](https://github.com/user-attachments/assets/9d7c88dd-dc1c-47de-95f4-16e1b4979168) 
 
 
