@@ -69,7 +69,9 @@ Figure 1.3 codes ensures that any missing values (NaNs) in the four specified co
  
 ![image](https://github.com/user-attachments/assets/053e362a-53d8-4e4a-ba68-5780666d63e9)
 
-<h2 align="center"> <small>FIGURE 1.4(FILE LOCATION)</small> </h2>
+<h2 align="center"> <small>FIGURE 1.5(FILE LOCATION)</small> </h2>
+
+Figure 1.5 shows where the saved document can be found in a folder such as 'Documents/Projects'.
 
 
 2.	Label Encoder 
