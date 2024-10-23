@@ -16,7 +16,12 @@ This dataset contains information about salaries, years of experience, and other
 The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
 ### **Analysis**
 ## Data Preprocessing
-    1.Handle Missing Values
+1.	Handle Missing Values
+This involves identifying and dealing with missing data in your dataset. Common techniques include:
+1.1	Removing records with missing values.
+2.2	Imputing values using methods such as mean, median, or mode, or more advanced techniques like K-nearest neighbors.
+2.	Label Encoder 
+   A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
 
 ------
 
