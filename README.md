@@ -64,10 +64,11 @@ Result: The code outputs the rows that contain missing values across any of the 
 
 <h2 align="center"> 
 
-![14](https://github.com/user-attachments/assets/8a7a7bcc-b56a-4382-989f-96fb1054d423)
+![image](https://github.com/user-attachments/assets/5ccc796c-fc84-4a94-89eb-37b247cc8854)
 
 
-<h2 align="center"> <small>FIGURE 4.(Cleaning the Dataset)</small> </h2>
+
+<h2 align="center"> <small>FIGURE 2.1.(Changing Variables to Numeric)</small> </h2>
 
 ------
 
