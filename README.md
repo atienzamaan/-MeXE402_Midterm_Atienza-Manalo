@@ -42,7 +42,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 
 
-##This involves identifying and dealing with missing data in your dataset. Common techniques include:
+**##This involves identifying and dealing with missing data in your dataset. Common techniques include:**
 
 
 >>1	Removing records with missing values.
