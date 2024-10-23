@@ -71,15 +71,15 @@ Figure 1.3 codes ensures that any missing values (NaNs) in the four specified co
 
 Figure 1.5 shows where the saved document can be found in a folder such as 'Documents/Projects'.
 
+## **Converting categorical labels/text to numeric form.**
 
-2.	Label Encoder 
+Label Encoder 
 >A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
 
 
 <h2 align="center"> 
 
 ![image](https://github.com/user-attachments/assets/5ccc796c-fc84-4a94-89eb-37b247cc8854)
-
 
 
 <h2 align="center"> <small>FIGURE 2.1.(Changing Variables to Numeric)</small> </h2>
