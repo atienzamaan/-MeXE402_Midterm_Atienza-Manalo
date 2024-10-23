@@ -25,7 +25,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 <h2 align="center"> <small>FIGURE 1.1(Total number of missing values)</small> </h2>
   
-Result: Figure 1 showing a series of the number missing in values from four columns of the Salary dataset.
+>>Result: Figure 1 showing a series of the number missing in values from four columns of the Salary dataset.
 
 <h2 align="center"> 
 
