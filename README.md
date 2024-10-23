@@ -21,10 +21,10 @@ The objective of the Salary Dataset is to analyze the relationship between salar
   This involves identifying and dealing with missing data in your dataset. Common techniques include:
 
 
-      1.1	Removing records with missing values.
+  1.1	Removing records with missing values.
 
 
-      2.2	Imputing values using methods such as mean, median, or mode, or more advanced techniques like K-nearest neighbors.
+  2.2	Imputing values using methods such as mean, median, or mode, or more advanced techniques like K-nearest neighbors.
 
 
 3.	Label Encoder 
