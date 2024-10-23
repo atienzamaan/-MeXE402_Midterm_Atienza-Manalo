@@ -23,7 +23,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
   
 ![Screenshot 2024-10-23 153637](https://github.com/user-attachments/assets/9d7c88dd-dc1c-47de-95f4-16e1b4979168) 
 
-<h2 align="center"> <small>FIGURE 1.1(Total number of missing values)</small> </h2>
+<h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
   
 >Result: Figure 1 showing a series of the number missing in values from four columns of the Salary dataset.
 
@@ -35,7 +35,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 
 
-<h2 align="center"> <small>FIGURE 1.2(Row with Missing value)</small> </h2>
+<h2 align="center"> <small>FIGURE 1.2:Row with Missing value</small> </h2>
 
  
 >Result: Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
@@ -51,7 +51,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
  
  ![image](https://github.com/user-attachments/assets/908d47e8-4ff8-4f14-9d2b-78c719e07b2a)
 
-<h2 align="center"> <small>FIGURE 2.1(Removing Data)</small> </h2>
+<h2 align="center"> <small>FIGURE 2.1:Removing Data</small> </h2>
 
 Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
 
@@ -65,7 +65,7 @@ Figure 2.1 codes ensures that any missing values (NaNs) in the four specified co
  
 ![image](https://github.com/user-attachments/assets/053e362a-53d8-4e4a-ba68-5780666d63e9)
 
-<h2 align="center"> <small>FIGURE 2.2(FILE LOCATION)</small> </h2>
+<h2 align="center"> <small>FIGURE 2.2:FILE LOCATION</small> </h2>
 
 Figure 2.2 shows where the saved document can be found in a folder such as 'Documents/Projects'.
 
@@ -80,7 +80,7 @@ Label Encoder
 ![image](https://github.com/user-attachments/assets/5ccc796c-fc84-4a94-89eb-37b247cc8854)
 
 
-<h2 align="center"> <small>FIGURE 3.1 (Changing Variables to Numeric)</small> </h2>
+<h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
 
  Assigning a unique number to each category
 •	Gender 
@@ -90,6 +90,10 @@ o	Female == 0
 <h2 align="center"> 
  
 ![image](https://github.com/user-attachments/assets/6c1cbca7-3c4d-4626-80ef-dbfc036d8e0c)
+
+
+<h2 align="center"> <small>Table 3.1:Cleaned Data for Age, Gender, Experience, and Salary)</small> </h2>
+
 
 ------
 
