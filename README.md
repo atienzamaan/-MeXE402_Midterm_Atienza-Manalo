@@ -92,7 +92,10 @@ o	Female == 0
 ![image](https://github.com/user-attachments/assets/6c1cbca7-3c4d-4626-80ef-dbfc036d8e0c)
 
 
-<h2 align="center"> <small>Table 3.1:Cleaned Data for Age, Gender, Experience, and Salary)</small> </h2>
+<h2 align="center"> <small>Table 3.1:Cleaned Data for Age, Gender, Experience, and Salary</small> </h2>
+
+
+#### **MODEL IMPLEMENTATION**:
 
 
 ------
