@@ -17,13 +17,13 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 ### **Analysis**
 ## Data Preprocessing
 1.	Handle Missing Values
-This involves identifying and dealing with missing data in your dataset. Common techniques include:
+  This involves identifying and dealing with missing data in your dataset. Common techniques include:
 
 
-1.1	Removing records with missing values.
+      1.1	Removing records with missing values.
 
 
-2.2	Imputing values using methods such as mean, median, or mode, or more advanced techniques like K-nearest neighbors.
+      2.2	Imputing values using methods such as mean, median, or mode, or more advanced techniques like K-nearest neighbors.
 
 
 2.	Label Encoder 
