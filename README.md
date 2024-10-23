@@ -61,7 +61,7 @@ Result: The code outputs the rows that contain missing values across any of the 
  
 ![image](https://github.com/user-attachments/assets/93d7de5d-4fc6-4861-826c-156eb8cf82f8)
 
-<h2 align="center"> <small>FIGURE 1.4(Cleaning the Dataset)</small> </h2>
+<h2 align="center"> <small>FIGURE 1.4(Clean Dataset)</small> </h2>
 
 
 2.	Label Encoder 
