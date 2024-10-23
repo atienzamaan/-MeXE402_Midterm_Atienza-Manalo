@@ -31,6 +31,8 @@ Result: Figure 1 showing a series of the number missing in values from four colu
 
 ![12](https://github.com/user-attachments/assets/bad59397-35a1-4635-9781-c6419bde4a00) 
 
+</h2>
+
 FIGURE 2
 
  
