@@ -27,20 +27,12 @@ The objective of the Salary Dataset is to analyze the relationship between salar
   
 Result: Figure 1 showing a series of the number missing in values from four columns of the dataset.
 
-
-
-
-<img align="left" height="80" src="https://github.com/witchfrommercury/TESTING-FOR-PROFILE/assets/157728066/ae9dacdb-6fc3-4208-8ce0-91f00b8d1af7](https://github.com/user-attachments/assets/bad59397-35a1-4635-9781-c6419bde4a00"/> 
-<img align="right" height="80" src="https://github.com/witchfrommercury/TESTING-FOR-PROFILE/assets/157728066/ae9dacdb-6fc3-4208-8ce0-91f00b8d1af7](https://github.com/user-attachments/assets/bad59397-35a1-4635-9781-c6419bde4a00"/> 
-</p>
-
+![12](https://github.com/user-attachments/assets/bad59397-35a1-4635-9781-c6419bde4a00) 
 
 <h2 align="center"> <small>FIGURE 2</small>
 
  
 Result: The code outputs the rows that contain missing values across any of the columns.In the result shown, 5 rows are displayed with missing values in various columns like Age, Gender, Years of Experience, and Salary.
-
-
 
 
 
