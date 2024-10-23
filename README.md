@@ -25,7 +25,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 <h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
   
->>Figure 1 showing a series of  number missing in values from four columns of the Salary dataset.
+Figure 1 showing a series of  number missing in values from four columns of the Salary dataset.
 
 <h2 align="center"> 
 
@@ -38,7 +38,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 <h2 align="center"> <small>FIGURE 1.2:Row with Missing value</small> </h2>
 
  
->>Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
+Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
 
 
 ### **2. Dealing with missing data in your dataset**
