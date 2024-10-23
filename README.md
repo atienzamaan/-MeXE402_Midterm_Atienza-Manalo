@@ -41,7 +41,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 >Result: The code outputs the rows that contain missing values across any of the columns.In the result shown, 5 rows are displayed with missing values.
 
 
-#### **This involves identifying and dealing with missing data in your dataset. Common techniques includ**:
+#### **This involves identifying and dealing with missing data in your dataset. Common techniques including**:
 
 
 
