@@ -35,7 +35,7 @@ Result: Figure 1 showing a series of the number missing in values from four colu
 
 
 
-<h2 align="center"> <small>FIGURE 1.2(Rows in the dataset that contain any missing value)</small> </h2>
+<h2 align="center"> <small>FIGURE 1.2(Rows in the dataset that contain missing value)</small> </h2>
 
  
 Result: The code outputs the rows that contain missing values across any of the columns.In the result shown, 5 rows are displayed with missing values.
