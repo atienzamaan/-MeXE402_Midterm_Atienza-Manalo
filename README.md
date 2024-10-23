@@ -18,6 +18,8 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 ## Data Preprocessing
 1.	Handle Missing Values
 
+![Screenshot 2024-10-23 153637](https://github.com/user-attachments/assets/9d7c88dd-dc1c-47de-95f4-16e1b4979168) 
+
 >This involves identifying and dealing with missing data in your dataset. Common techniques include:
 
 
