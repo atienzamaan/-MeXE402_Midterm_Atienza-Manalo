@@ -58,7 +58,7 @@ Result: The code outputs the rows that contain missing values across any of the 
 2.	Label Encoder 
 >A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
 
-
+<h2 align="center">
 ![14](https://github.com/user-attachments/assets/8a7a7bcc-b56a-4382-989f-96fb1054d423)
 
 ------
