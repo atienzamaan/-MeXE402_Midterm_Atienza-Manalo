@@ -72,7 +72,7 @@ Figure 2.1 codes ensures that any missing values (NaNs) in the four specified co
 ## **3. Converting categorical labels/text to numeric form.**
 
 Label Encoder 
->A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
+>A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form. Since gender is the only non-numeric value, this is the only thing that can be replaced 
 
 
 <h2 align="center"> 
