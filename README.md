@@ -82,6 +82,15 @@ Label Encoder
 
 <h2 align="center"> <small>FIGURE 3.1 (Changing Variables to Numeric)</small> </h2>
 
+ Assigning a unique number to each category
+•	Gender 
+o	Male == 1
+o	Female == 0
+
+<h2 align="center"> 
+ 
+![image](https://github.com/user-attachments/assets/6c1cbca7-3c4d-4626-80ef-dbfc036d8e0c)
+
 ------
 
 ## Logistic Regression 
