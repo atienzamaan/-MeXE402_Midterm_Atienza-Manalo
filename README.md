@@ -41,7 +41,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 >Result: Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
 
 
-#### *Dealing with missing data in your dataset.**
+#### *2. Dealing with missing data in your dataset.**
 
 
 
@@ -53,9 +53,9 @@ The objective of the Salary Dataset is to analyze the relationship between salar
  
  ![image](https://github.com/user-attachments/assets/908d47e8-4ff8-4f14-9d2b-78c719e07b2a)
 
-<h2 align="center"> <small>FIGURE 1.3(Removing Data)</small> </h2>
+<h2 align="center"> <small>FIGURE 2.1(Removing Data)</small> </h2>
 
-Figure 1.3 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
+Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
 
 >>2 Saving the cleaned Dataset.
 
@@ -67,11 +67,11 @@ Figure 1.3 codes ensures that any missing values (NaNs) in the four specified co
  
 ![image](https://github.com/user-attachments/assets/053e362a-53d8-4e4a-ba68-5780666d63e9)
 
-<h2 align="center"> <small>FIGURE 1.5(FILE LOCATION)</small> </h2>
+<h2 align="center"> <small>FIGURE 2.2(FILE LOCATION)</small> </h2>
 
-Figure 1.5 shows where the saved document can be found in a folder such as 'Documents/Projects'.
+Figure 2.2 shows where the saved document can be found in a folder such as 'Documents/Projects'.
 
-## **Converting categorical labels/text to numeric form.**
+## **3. Converting categorical labels/text to numeric form.**
 
 Label Encoder 
 >A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
@@ -82,7 +82,7 @@ Label Encoder
 ![image](https://github.com/user-attachments/assets/5ccc796c-fc84-4a94-89eb-37b247cc8854)
 
 
-<h2 align="center"> <small>FIGURE 2.1.(Changing Variables to Numeric)</small> </h2>
+<h2 align="center"> <small>FIGURE 3.1 (Changing Variables to Numeric)</small> </h2>
 
 ------
 
