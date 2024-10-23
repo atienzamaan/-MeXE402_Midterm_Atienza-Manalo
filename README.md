@@ -51,7 +51,7 @@ Result: The code outputs the rows that contain missing values across any of the 
 
 <h2 align="center"> 
  
- ![13](https://github.com/user-attachments/assets/4b642287-9739-4de0-81ba-50988d832c5c)
+ ![image](https://github.com/user-attachments/assets/908d47e8-4ff8-4f14-9d2b-78c719e07b2a)
 
 <h2 align="center"> <small>FIGURE 1.3(Cleaning the Dataset)</small> </h2>
 
