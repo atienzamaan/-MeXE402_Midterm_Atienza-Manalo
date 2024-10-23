@@ -16,7 +16,7 @@ This dataset contains information about salaries, years of experience, and other
 The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
 ### **Analysis**
 ## Data Preprocessing
-    1.	Handle Missing Values
+    1.Handle Missing Values
 
 ------
 
