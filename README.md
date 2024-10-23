@@ -36,10 +36,8 @@ Result: Figure 1 showing a series of the number missing in values from four colu
 
 
 FIGURE 2 
-
-  
+ 
 Result: The code outputs the rows that contain missing values across any of the columns:
-
 
 In the result shown, 5 rows are displayed with missing values in various columns like Age, Gender, Years of Experience, and Salary.
 
@@ -52,7 +50,7 @@ In the result shown, 5 rows are displayed with missing values in various columns
 
 >1.1	Removing records with missing values.
 
-![13](https://github.com/user-attachments/assets/4b642287-9739-4de0-81ba-50988d832c5c)
+<h2 align="center"> ![13](https://github.com/user-attachments/assets/4b642287-9739-4de0-81ba-50988d832c5c)
 
 
 
