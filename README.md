@@ -8,8 +8,10 @@ This dataset contains information about salaries, years of experience, and other
 #### **Key Features**:
   - `Salary`:The corresponding salary of the employee (in dollars).
   - `Years of Experience`: The number of years an employee has worked in their field.
-  - `age:`:.
-  - `status`: 
+  - `Gender:`
+  - `Education Level:`
+  - `Job title`:
+  -  `Age:`
 #### **Dependent Variable**:
    - `Salary`:The corresponding salary of the employee (in dollars).
 # **Objective of the Dataset**
@@ -27,7 +29,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 <h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
   
-Figure 1 showing a series of  number missing in values from four columns of the Salary dataset.
+Figure 1.1 showing a series of  number missing in values from four columns of the Salary dataset.
 
 <h2 align="center"> 
 
@@ -57,7 +59,7 @@ Figure 1.2 shows the 5 rows that contain missing values across any of the column
 
 <h2 align="center"> <small>FIGURE 2.1:Removing Unnecessary Data</small> </h2>
 
-Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
+Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender,Educational Level, Job Title, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
 
 >>2.2 Saving the cleaned Dataset.
 
