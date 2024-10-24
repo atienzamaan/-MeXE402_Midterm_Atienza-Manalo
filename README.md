@@ -91,6 +91,23 @@ Label Encoder
 
 ### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
+<h2 align="center"> 
+
+![image](https://github.com/user-attachments/assets/b502cff3-4c9b-4b59-9c39-195807244427)
+
+<h2 align="center"> <small>FIGURE 4.1:EDUCATION AND JOB TITLE</small> </h2>
+
+In Figure 4.1, Gender was not included due to the limited numerical values it provided. Instead, job title and education level were used, as they offer more representative values. 
+
+![image](https://github.com/user-attachments/assets/969bee74-ef80-479c-b9ff-063a15cbb227)
+
+
+
+
+
+
+
+
 
 
 #### **MODEL IMPLEMENTATION**:
