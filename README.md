@@ -119,15 +119,15 @@ Assigning a unique number category For Gender :
 
 #### **MODEL IMPLEMENTATION**:
 
-This refers to using appropriate machine learning libraries to build and train the linear regression model. Commonly used libraries include:
+- This refers to using appropriate machine learning libraries to build and train the linear regression model. Commonly used libraries include:
 
-o	Scikit-learn for linear regression.
-o	Pandas and Numpy for data handling.
-o	Label Encoder for transforming categorical labels into numerical values.
+- o	Scikit-learn for linear regression.
+- o	Pandas and Numpy for data handling.
+- o	Label Encoder for transforming categorical labels into numerical values.
 
-Evaluation Metrics:
-•	Calculate R-squared
-•	Mean Squared Error
+- Evaluation Metrics:
+- •	Calculate R-squared
+- •	Mean Squared Error
 
 
 
