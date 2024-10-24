@@ -97,7 +97,7 @@ Label Encoder
 
 <h2 align="center"> <small>FIGURE 4.1:EDUCATION AND JOB TITLE</small> </h2>
 
-In Figure 4.1, Gender was not included due to the limited numerical values it provided. Instead, job title and education level were used, as they offer more representative values. 
+In Figure 4.1, Gender was not included due to the limited numerical values it provided. Instead, job title and education level were used, as they offer more reference values. 
 
 <h2 align="center">
 
