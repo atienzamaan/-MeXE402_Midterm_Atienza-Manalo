@@ -126,8 +126,8 @@ This refers to using appropriate machine learning libraries to build and train t
 - o	Label Encoder for transforming categorical labels into numerical values.
 
 Evaluation Metrics:
-- •	Calculate R-squared
-- •	Mean Squared Error
+- 	Calculate R-squared
+-  Mean Squared Error
 
 
 
