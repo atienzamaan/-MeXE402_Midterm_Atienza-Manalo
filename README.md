@@ -21,7 +21,8 @@ The objective of the Salary Dataset is to analyze the relationship between salar
    
  <h2 align="center"> 
   
-![Screenshot 2024-10-23 153637](https://github.com/user-attachments/assets/9d7c88dd-dc1c-47de-95f4-16e1b4979168) 
+![image](https://github.com/user-attachments/assets/8c1a99fb-feb7-4fe8-b4cc-4e9c62596bb9)
+
 
 <h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
   
@@ -29,7 +30,8 @@ Figure 1 showing a series of  number missing in values from four columns of the 
 
 <h2 align="center"> 
 
-![12](https://github.com/user-attachments/assets/bad59397-35a1-4635-9781-c6419bde4a00) 
+![image](https://github.com/user-attachments/assets/035f86ca-7359-44c3-8cab-68a0474f6200)
+
 
 </h2>
 
@@ -49,7 +51,8 @@ Figure 1.2 shows the 5 rows that contain missing values across any of the column
 
 <h2 align="center"> 
  
- ![image](https://github.com/user-attachments/assets/908d47e8-4ff8-4f14-9d2b-78c719e07b2a)
+![image](https://github.com/user-attachments/assets/1aa758d8-4c13-4c9c-9622-d31812b1a981)
+
 
 <h2 align="center"> <small>FIGURE 2.1:Removing Unnecessary Data</small> </h2>
 
