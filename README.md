@@ -40,9 +40,12 @@ Figure 1.1 showing a series of  number missing in values from four columns of th
 
 
 
-<h2 align="center"> <small>FIGURE 1.2:Row with Missing value</small> </h2>
-
+<h2 align="center"> 
  
+ FIGURE 1.2:Row with Missing value
+
+ <h2>
+  
 Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
 
 
