@@ -114,8 +114,8 @@ Figure 4.2 shows the reference values of the numbers.Since it consists of 316 jo
 
 Assigning a unique number category For Gender :
 
--o	Male == 1
--o	Female == 0
+>o	Male == 1
+>o	Female == 0
 
 
 
