@@ -99,7 +99,15 @@ Label Encoder
 
 In Figure 4.1, Gender was not included due to the limited numerical values it provided. Instead, job title and education level were used, as they offer more representative values. 
 
-![image](https://github.com/user-attachments/assets/969bee74-ef80-479c-b9ff-063a15cbb227)
+<h2 align="center">
+
+
+![image](https://github.com/user-attachments/assets/7fe137ce-ccff-4c27-b479-2246c2f7ed9d)
+
+
+![image](https://github.com/user-attachments/assets/b234288b-a78c-4ac1-af60-cbdcddac9016)
+
+
 
 
 
