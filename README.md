@@ -71,7 +71,7 @@ Figure 2.1 codes ensures that any missing values (NaNs) in the four specified co
 
 <h2 align="center"> <small>FIGURE 2.2:FILE LOCATION</small> </h2>
 
->>Figure 2.2 shows where the saved document can be found in a folder such as 'Documents/Projects'.
+Figure 2.2 shows where the saved document can be found in a folder such as 'Documents/Projects'.
 
 ## **3. Converting categorical labels/text to numeric form.**
 
