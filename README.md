@@ -86,7 +86,7 @@ Label Encoder
 
 <h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
 
-### **2. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
+### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
 
 
