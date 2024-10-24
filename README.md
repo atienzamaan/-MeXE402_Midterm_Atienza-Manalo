@@ -107,7 +107,7 @@ In Figure 4.1, Gender was not included due to the limited numerical values it pr
 
 ![image](https://github.com/user-attachments/assets/b234288b-a78c-4ac1-af60-cbdcddac9016)
 
-<h2 align="center"> <small>FIGURE 4.1:Reference Value</h2>
+<h2 align="center"> <small>FIGURE 4.2:Reference Value</h2>
 
 
 Figure 4.2 shows the reference values of the numbers.Since it consists of 316 job titles, you can refer to the Excel file to view the reference values of the numbers.
