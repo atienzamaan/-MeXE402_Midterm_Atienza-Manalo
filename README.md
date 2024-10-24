@@ -59,7 +59,7 @@ Figure 1.2 shows the 5 rows that contain missing values across any of the column
 
 <h2 align="center"> <small>FIGURE 2.1:Removing Unnecessary Data</small> </h2>
 
-Figure 2.1 codes ensures that any missing values (NaNs) in the four specified columns (Age, Gender,Educational Level, Job Title, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
+Figure 2.1 codes ensures that any missing values (NaNs) in the six specified columns (Age, Gender,Educational Level, Job Title, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
 
 >>2.2 Saving the cleaned Dataset.
 
