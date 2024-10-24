@@ -120,12 +120,10 @@ In Figure 4.1, the analysis focused on identifying reference values from numeric
 <h2 align="center"> <small>FIGURE 4.2:Reference Value</h2>
 
 
-Figure 4.2 shows the reference values of the numbers.Since it consists of 316 job titles, you can refer to the Excel file to view the reference values of the numbers.
+Figure 4.2 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, containing 316 unique job titles, it is recommended to consult the accompanying Excel file named " Job_Title_Education_Mapping" for a detailed reference of numerical values. As Gender was not included , the following reference values apply: 
 
-Assigning a unique number category For Gender :
-
->o	Male == 1
->o	Female == 0
+- Male = 1
+- Female = 0.
 
 # **MODEL IMPLEMENTATION**:
 
