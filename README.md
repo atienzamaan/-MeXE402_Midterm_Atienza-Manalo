@@ -135,27 +135,29 @@ Evaluation Metrics:
 
 The coefficients in a salary dataset provide valuable insights into which factors are most influential in predicting salary. They help identify patterns like gender pay gaps, the impact of education, and the value of experience, which can guide decisions related to compensation strategies, hiring practices, and addressing potential salary disparities.
 
--Age:
+#### **Age**:
 
 The coefficient for age indicates how salary is expected to change with each additional year of age. In this dataset, it suggests that older individuals tend to earn more, likely due to the accumulation of experience or seniority.
 
-
--Gender:
+#### **Gender**:
 
 The gender coefficient measures the salary difference between males and females. In this dataset, there is no strong evidence of a significant gender-based salary gap.
 
+#### **Education Levelt**:
 
--Education Level:
 
 The coefficient for education level reflects how salary is affected by increasing educational attainment. Individuals with higher levels of education tend to earn more, supporting the idea that education boosts earning potential.
 
--Job Title:
+#### **Job Title**:
+
 
 This coefficient reflects salary differences across various roles. It indicates that certain job titles command higher or lower salaries, depending on the position's value in the job market.
 
+
+#### **Years of Experience**:
 -Years of Experience:
 
-Experience is one of the most critical factors. The coefficient for years of experience suggests that salary tends to increase with each additional year of experience, with the magnitude of the coefficient showing the rate of salary growth.
+Experience is one of the most critical factors. The coefficient for years of experience suggests that salary tends to increase with each additional year showing the rate of salary growth.
 
 ------
 
