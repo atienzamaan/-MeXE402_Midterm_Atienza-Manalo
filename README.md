@@ -29,7 +29,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 <h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
   
-Figure 1.1 showing a series of  number missing in values from four columns of the Salary dataset.
+Figure 1.1 illustrates the initial step of the analysis, which involved utilizing Python to identify missing values within four columns of the Salary dataset. This figure showcases a series of missing numbers within these columns.
 
 <h2 align="center"> 
 
@@ -43,7 +43,7 @@ Figure 1.1 showing a series of  number missing in values from four columns of th
 <h2 align="center"> <small>FIGURE 1.2:Row with Missing value</small> </h2>
  
   
-Figure 1.2 shows the 5 rows that contain missing values across any of the columns.
+Figure 1.2 shows the 5 rows that contain missing values across any of the columns. The analysis then determined the exact rows within the dataset where values were missing.
 
 
 ### **2. Dealing with missing data in your dataset**
@@ -73,7 +73,7 @@ Figure 2.1 codes ensures that any missing values (NaNs) in the four specified co
 
 <h2 align="center"> <small>FIGURE 2.2:FILE LOCATION</small> </h2>
 
-Figure 2.2 shows where the saved document can be found in a folder such as 'Documents/Projects'.
+Figure 2.2 illustrates the steps taken to address missing data within the dataset. The final dataset, incorporating these changes, can be located in a folder named 'Documents/Projects'.
 
 ## **3. Converting categorical labels/text to numeric form.**
 
