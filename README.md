@@ -1,9 +1,9 @@
  # MeXE402_Midterm_Atienza-Manalo
 #### Both Linear Regression and Logistic Regression are foundational techniques in machine learning used for different types of problems. While they share similarities in their structure, they are applied to distinct tasks and have different mathematical foundations. This repository will serve as our midterm exam that is designed to assess our understanding of Linear Regression and Logistic Regression through practical application on real-world datasets.
 
-## Linear Regression
-### **Introduction**
-#### **Dataset Description**
+# Linear Regression
+# **Introduction**
+# **Dataset Description**
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### **Key Features**:
   - `Salary`:The corresponding salary of the employee (in dollars).
@@ -12,7 +12,7 @@ This dataset contains information about salaries, years of experience, and other
   - `status`: 
 #### **Dependent Variable**:
    - `Salary`:The corresponding salary of the employee (in dollars).
-### **Objective of the Dataset**
+# **Objective of the Dataset**
 The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
 # **Linear Regression Analysis**
 
@@ -118,7 +118,7 @@ Assigning a unique number category For Gender :
 >o	Male == 1
 >o	Female == 0
 
-#### **MODEL IMPLEMENTATION**:
+# **MODEL IMPLEMENTATION**:
 
 This refers to using appropriate machine learning libraries to build and train the linear regression model. Commonly used libraries include:
 
@@ -131,7 +131,7 @@ Evaluation Metrics:
 -  Mean Squared Error
 
 
-#### **The Significance of Coefficients in the Salary Dataset**:
+## **The Significance of Coefficients in the Salary Dataset**:
 
 The coefficients in a salary dataset provide valuable insights into which factors are most influential in predicting salary. They help identify patterns like gender pay gaps, the impact of education, and the value of experience, which can guide decisions related to compensation strategies, hiring practices, and addressing potential salary disparities. Here are the importance of coefficient under: 
 
@@ -159,22 +159,23 @@ Experience is one of the most critical factors. The coefficient for years of exp
 
 
 
-#### **Model’s Predictive Power**:
+## **Model’s Predictive Power**:
 
 The predictive power of your model can be assessed using metrics like R-squared (R²), Adjusted R-squared, and error measures. 
 
-# **Key Metrics**:
+####Key Metrics**:
 
 1.	R-squared (R²): 0.6617
    
-- o	R² explains how well the independent variables account for the variance in the dependent variable (salary).
-- o	66.17% of the variability in salary is explained by the model. This is moderately good, suggesting that your model captures most but not all of the salary determinants.
+- R² explains how well the independent variables account for the variance in the dependent variable (salary).
+- 66.17% of the variability in salary is explained by the model. This is moderately good, suggesting that your model captures most but not all of the salary determinants.
 
 2.	Adjusted R-squared: 0.6603
-- o	Adjusted R² adjusts for the number of predictors in the model. It penalizes the inclusion of irrelevant predictors that don't contribute to the model's predictive power.
-- o	66.03% means that even after accounting for the complexity of the model (number of predictors), the model still explains most of the variance in salary. The slight decrease from R² indicates that the model isn’t overfitting, as the number of predictors is appropriate.
-- 
+- Adjusted R² adjusts for the number of predictors in the model. It penalizes the inclusion of irrelevant predictors that don't contribute to the model's predictive power.
+- 66.03% means that even after accounting for the complexity of the model (number of predictors), the model still explains most of the variance in salary. The slight decrease from R² indicates that the model isn’t overfitting, as the number of predictors is appropriate.
+  
 Model Performance:
+
 •	The R² and Adjusted R² values around 66% imply that your model has a moderate predictive power. While the model captures a large part of the variability in salary, there's still about 34% that remains unexplained. This could be due to other factors not included in the model, such as industry type, company size, performance incentives, or even location.
 
 ------
