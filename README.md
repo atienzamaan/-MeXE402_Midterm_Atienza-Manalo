@@ -112,6 +112,11 @@ In Figure 4.1, Gender was not included due to the limited numerical values it pr
 
 Figure 4.2 shows the reference values of the numbers.Since it consists of 316 job titles, you can refer to the Excel file to view the reference values of the numbers.
 
+Assigning a unique number category For Gender :
+o	Male == 1
+o	Female == 0
+
+
 
 
 
