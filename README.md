@@ -155,9 +155,27 @@ This coefficient reflects salary differences across various roles. It indicates 
 
 
 #### **Years of Experience**:
--Years of Experience:
-
 Experience is one of the most critical factors. The coefficient for years of experience suggests that salary tends to increase with each additional year showing the rate of salary growth.
+
+
+
+#### **Model’s Predictive Power**:
+
+The predictive power of your model can be assessed using metrics like R-squared (R²), Adjusted R-squared, and error measures. 
+
+# **Key Metrics**:
+
+1.	R-squared (R²): 0.6617
+   
+- o	R² explains how well the independent variables account for the variance in the dependent variable (salary).
+- o	66.17% of the variability in salary is explained by the model. This is moderately good, suggesting that your model captures most but not all of the salary determinants.
+
+2.	Adjusted R-squared: 0.6603
+- o	Adjusted R² adjusts for the number of predictors in the model. It penalizes the inclusion of irrelevant predictors that don't contribute to the model's predictive power.
+- o	66.03% means that even after accounting for the complexity of the model (number of predictors), the model still explains most of the variance in salary. The slight decrease from R² indicates that the model isn’t overfitting, as the number of predictors is appropriate.
+- 
+Model Performance:
+•	The R² and Adjusted R² values around 66% imply that your model has a moderate predictive power. While the model captures a large part of the variability in salary, there's still about 34% that remains unexplained. This could be due to other factors not included in the model, such as industry type, company size, performance incentives, or even location.
 
 ------
 
