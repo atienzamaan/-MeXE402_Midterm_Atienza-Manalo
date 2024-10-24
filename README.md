@@ -83,26 +83,13 @@ Label Encoder
 ![image](https://github.com/user-attachments/assets/38ae0f3b-27e0-415b-aaf8-d54d03bdf8ff)
 
 
-
-<h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
-
-### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
-
-
-
- Assigning a unique number to each category
-•	Gender 
-o	Male == 1
-o	Female == 0
-
-<h2 align="center"> 
- 
 ![image](https://github.com/user-attachments/assets/f82e822e-be92-49e3-8e7b-614f256df0ae)
 
 
 
-<h2 align="center"> <small>Table 3.1:Cleaned Data for Age, Gender, Experience, and Salary</small> </h2>
+<h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
 
+### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
 
 
