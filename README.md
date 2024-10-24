@@ -80,7 +80,8 @@ Label Encoder
 
 <h2 align="center"> 
 
-![image](https://github.com/user-attachments/assets/5ccc796c-fc84-4a94-89eb-37b247cc8854)
+![image](https://github.com/user-attachments/assets/38ae0f3b-27e0-415b-aaf8-d54d03bdf8ff)
+
 
 
 <h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
