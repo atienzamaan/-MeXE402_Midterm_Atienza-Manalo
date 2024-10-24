@@ -78,7 +78,7 @@ Figure 2.2 illustrates the steps taken to address missing data within the datase
 ## **3. Converting categorical labels/text to numeric form.**
 
 Label Encoder 
->A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form. Since gender is the only non-numeric value, this is the only thing that can be replaced 
+>A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
 
 
 <h2 align="center"> 
@@ -92,6 +92,11 @@ Label Encoder
 
 <h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
 
+
+Figure 3.1 utilized a label encoder to replace all numeric values with non-numeric values, a requirement for linear regression.
+
+
+
 ### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
 <h2 align="center"> 
@@ -100,7 +105,9 @@ Label Encoder
 
 <h2 align="center"> <small>FIGURE 4.1:EDUCATION AND JOB TITLE</small> </h2>
 
-In Figure 4.1, Gender was not included due to the limited numerical values it provided. Instead, job title and education level were used, as they offer more reference values. 
+In Figure 4.1, the analysis focused on identifying reference values from numerical to non-numerical categories. While Gender was excluded due to its limited numerical range, Job Title and Education Level were chosen as they provide a more diverse set of reference value.
+
+
 
 <h2 align="center">
 
