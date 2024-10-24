@@ -41,8 +41,9 @@ Figure 1.1 showing a series of  number missing in values from four columns of th
 
 
 <h2 align="center"> 
- 
- FIGURE 1.2:Row with Missing value
+
+
+ #### ** FIGURE 1.2:Row with Missing value**
 
  <h2>
   
