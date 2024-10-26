@@ -8,10 +8,10 @@ This dataset contains information about salaries, years of experience, and other
 #### **Key Features**:
   - `Salary`:The corresponding salary of the employee (in dollars).
   - `Years of Experience`: The number of years an employee has worked in their field.
-  - `Gender:`
-  - `Education Level:`
-  - `Job title`:
-  -  `Age:`
+  - `Gender:`The gender of the employee (e.g., Male, Female, Non-binary).
+  - `Education Level:` The highest level of education attained by the employee (e.g., High School, Bachelor’s Degree, Master’s Degree, Ph.D.).
+  - `Job title`: The employee's position or title within their organization (e.g., Software Engineer, Data Analyst, Project Manager).
+  -  `Age:` The age of the employee (in years).
 #### **Dependent Variable**:
    - `Salary`:The corresponding salary of the employee (in dollars).
 # **Objective of the Dataset**
@@ -59,7 +59,7 @@ Figure 1.2 shows the 5 rows that contain missing values across any of the column
 
 <h2 align="center"> <small>FIGURE 2.1:Removing Unnecessary Data</small> </h2>
 
-Figure 2.1 codes ensures that any missing values (NaNs) in the six specified columns (Age, Gender,Educational Level, Job Title, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode can help maintain the distribution of the dataset.
+Figure 2.1 codes ensure that any missing values (NaNs) in the six specified columns (Age, Gender, Educational Level, Job Title, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode. It can help maintain the distribution of the dataset.
 
 >>2.2 Saving the cleaned Dataset.
 
@@ -105,9 +105,9 @@ Figure 3.1 utilized a label encoder to replace all numeric values with non-numer
 
 <h2 align="center"> <small>FIGURE 4.1:EDUCATION AND JOB TITLE</small> </h2>
 
-In Figure 4.1, the analysis focused on identifying reference values from numerical to non-numerical categories. While Gender was excluded due to its limited numerical range, Job Title and Education Level were chosen as they provide a more diverse set of reference value.
+In Figure 4.1, the analysis focused on identifying reference values from numerical to non-numerical categories. While Gender was excluded due to its limited numerical range. Job title and education level were chosen as they provide a more diverse set of reference value.
 
-
+### **4. Coding the cleaned  **
 
 <h2 align="center">
 
@@ -124,6 +124,7 @@ Figure 4.2 provides a comprehensive list of reference values associated with the
 
 - Male = 1
 - Female = 0.
+
 
 # **MODEL IMPLEMENTATION**:
 
@@ -170,7 +171,7 @@ Experience is one of the most critical factors. The coefficient for years of exp
 
 The predictive power of your model can be assessed using metrics like R-squared (R²), Adjusted R-squared, and error measures. 
 
-####Key Metrics**:
+####**Key Metrics**:
 
 1.	R-squared (R²): 0.6617
    
