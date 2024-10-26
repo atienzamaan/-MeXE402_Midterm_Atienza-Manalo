@@ -127,6 +127,10 @@ Figure 4.2 provides a comprehensive list of reference values associated with the
 
 # **MODEL IMPLEMENTATION**:
 
+
+
+
+
 This refers to using appropriate machine learning libraries to build and train the linear regression model. Commonly used libraries include:
 
 - o	Scikit-learn for linear regression.
@@ -170,7 +174,7 @@ Experience is one of the most critical factors. The coefficient for years of exp
 
 The predictive power of your model can be assessed using metrics like R-squared (R²), Adjusted R-squared, and error measures. 
 
-####**Key Metrics**:
+## **Key Metrics**:
 
 1.	R-squared (R²): 0.6617
    
