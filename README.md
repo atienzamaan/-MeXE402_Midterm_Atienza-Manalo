@@ -112,21 +112,23 @@ Figure 4.1 provides a comprehensive list of reference values associated with the
 
 # **MODEL IMPLEMENTATION**:
 
+1. 
 <h2 align="center">
 
  
 ![image](https://github.com/user-attachments/assets/550a35c0-73dd-42b4-bf67-0038f6c0cf4b)
 
-Figure 1
-First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.
+
+<p align="center">First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.
+</p>
 
 <h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/b0ba06d9-6f78-4378-a43a-8e3b07c86352)
 
 The code effectively separates the dataset into two parts:
-•	X: Contains the independent variables (features) that will be used to predict the salary.
-•	y: Contains the dependent variable (target) that represents the salary values to be predicted.
+-	X: Contains the independent variables (features) that will be used to predict the salary.
+-	y: Contains the dependent variable (target) that represents the salary values to be predicted.
 This step is crucial in machine learning workflows as it prepares the data for training a model.
 
 <h2 align="center">
