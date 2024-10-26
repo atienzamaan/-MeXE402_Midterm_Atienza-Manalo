@@ -86,7 +86,7 @@ Label Encoder
 ![image](https://github.com/user-attachments/assets/38ae0f3b-27e0-415b-aaf8-d54d03bdf8ff)
 
 
-![image](https://github.com/user-attachments/assets/f82e822e-be92-49e3-8e7b-614f256df0ae)
+![image](https://github.com/user-attachments/assets/f940fd7a-6575-4ea5-84b4-4a3dcc7f9a38)
 
 
 
@@ -99,7 +99,10 @@ Note: There was an issue with the Bachelor's degree data where values from 1 to 
 
 ### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
-![image](https://github.com/user-attachments/assets/b234288b-a78c-4ac1-af60-cbdcddac9016)
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/3a1ad860-ba16-40a2-a2c1-128bec2f79e0)
+
 
 <h2 align="center"> <small>FIGURE 4.1:Reference Value</h2>
 
