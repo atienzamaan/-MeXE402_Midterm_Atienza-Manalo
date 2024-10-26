@@ -112,7 +112,94 @@ Figure 4.1 provides a comprehensive list of reference values associated with the
 
 # **MODEL IMPLEMENTATION**:
 
+<h2 align="center">
 
+ 
+![image](https://github.com/user-attachments/assets/550a35c0-73dd-42b4-bf67-0038f6c0cf4b)
+
+Figure 1
+First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/b0ba06d9-6f78-4378-a43a-8e3b07c86352)
+
+The code effectively separates the dataset into two parts:
+•	X: Contains the independent variables (features) that will be used to predict the salary.
+•	y: Contains the dependent variable (target) that represents the salary values to be predicted.
+This step is crucial in machine learning workflows as it prepares the data for training a model.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/7d72a08e-f5c3-4fdf-b57c-1bd8e0cd36e6)
+
+
+The train_test_split function is imported from the sklearn.model_selection module. This module provides various tools for model selection and evaluation. The train_test_split function is called with the input features (X), the target variable (y), the desired test set size (test_size=0.2), and a random seed (random_state=0). 
+
+
+•  Output: The function returns four sets: 
+
+•	X_train: Contains the features of the training set.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/cca04608-22b3-435b-abf6-9f9749440f1c)
+
+
+•	X_test: Contains the features of the testing set.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/7622d195-4ca6-4339-bb65-4773e1dc2ab9)
+
+•	y_train: Contains the target variable of the training set.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/7784ec50-d46c-4603-82ed-662fe2edb120)
+
+
+•	y_test: Contains the target variable of the testing set.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/8ad4cf68-60ec-4584-a084-f9c22ff7daf3)
+
+
+![image](https://github.com/user-attachments/assets/66bb8180-9615-4fa0-b227-d51f6929f2a1)
+
+
+This class provides a pre-built implementation of the linear regression algorithm. By creating an instance of this class, we effectively instantiate a linear regression model object. This model is now ready to be trained on the training data
+
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/99926d4e-bd5a-4de1-a547-a5ecf2f23af5)
+
+This line of code trains the linear regression model (model) on the training data. The fit method is like a function that takes the training features (X_train) and the corresponding target variable (y_train) as input. It teaches the model the best way to relate the features to the target.
+
+
+<h2 align="center">
+ 
+![image](https://github.com/user-attachments/assets/8d3f4c14-6868-42c6-8c7e-03a4719aff1c)
+
+This line of code uses the trained model (model) to make predictions on the testing set (X_test). The predict method takes the input features of the testing set as input and returns the corresponding predicted target values. These predicted values are stored in the variable y_pred. 
+
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/d8f6bad8-f5cb-4b84-bf87-0f263ab81a22)
+
+![image](https://github.com/user-attachments/assets/ab59761b-dd77-4c7e-929c-5c5a5add3072)
+
+
+•  This line of code uses the trained model (model) to make a prediction on a new data point. The input to the predict method is a 2D array containing the values for the input features of the new data point. In this case, the values are: age = 32, gender = 1, education level = 1, job title = 177, and years of experience = 5. 
+
+•  Output: The predict method returns a predicted value, which in this case is 85745.79735184. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/23090e2d-4be9-42d6-b0cd-8bfcbee148b3)
 
 
 
