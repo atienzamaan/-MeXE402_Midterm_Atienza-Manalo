@@ -119,8 +119,8 @@ Figure 4.1 provides a comprehensive list of reference values associated with the
 ![image](https://github.com/user-attachments/assets/550a35c0-73dd-42b4-bf67-0038f6c0cf4b)
 
 
-<p align="center">First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.
-</p>
+<h2 align="center"> <small>First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.</h2>
+
 
 <h2 align="center">
 
