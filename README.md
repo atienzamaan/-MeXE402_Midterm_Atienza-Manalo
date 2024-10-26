@@ -107,7 +107,6 @@ Figure 3.1 utilized a label encoder to replace all numeric values with non-numer
 
 In Figure 4.1, the analysis focused on identifying reference values from numerical to non-numerical categories. While Gender was excluded due to its limited numerical range. Job title and education level were chosen as they provide a more diverse set of reference value.
 
-### **4. Coding the cleaned  **
 
 <h2 align="center">
 
