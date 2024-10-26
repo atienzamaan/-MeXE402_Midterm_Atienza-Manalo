@@ -95,31 +95,16 @@ Label Encoder
 
 Figure 3.1 utilized a label encoder to replace all numeric values with non-numeric values, a requirement for linear regression.
 
-
+Note: There was an issue with the Bachelor's degree data where values from 1 to 1000 were equivalent to "0," and values 1001 and above were equivalent to "1." This was corrected using the Find and Replace method in Excel.
 
 ### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
-<h2 align="center"> 
-
-![image](https://github.com/user-attachments/assets/b502cff3-4c9b-4b59-9c39-195807244427)
-
-<h2 align="center"> <small>FIGURE 4.1:EDUCATION AND JOB TITLE</small> </h2>
-
-In Figure 4.1, the analysis focused on identifying reference values from numerical to non-numerical categories. While Gender was excluded due to its limited numerical range. Job title and education level were chosen as they provide a more diverse set of reference value.
-
-
-<h2 align="center">
-
-
-![image](https://github.com/user-attachments/assets/7fe137ce-ccff-4c27-b479-2246c2f7ed9d)
-
-
 ![image](https://github.com/user-attachments/assets/b234288b-a78c-4ac1-af60-cbdcddac9016)
 
-<h2 align="center"> <small>FIGURE 4.2:Reference Value</h2>
+<h2 align="center"> <small>FIGURE 4.1:Reference Value</h2>
 
 
-Figure 4.2 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, containing 316 unique job titles, it is recommended to consult the accompanying Excel file named " Job_Title_Education_Mapping" for a detailed reference of numerical values. As Gender was not included , the following reference values apply: 
+Figure 4.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, containing 316 unique job titles, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. As Gender was not included , the following reference values apply: 
 
 - Male = 1
 - Female = 0.
