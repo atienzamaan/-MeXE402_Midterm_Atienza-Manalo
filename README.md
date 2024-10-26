@@ -29,7 +29,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 <h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
   
-Figure 1.1 illustrates the initial step of the analysis, which involved utilizing Python to identify missing values within 5 columns of the Salary dataset. This figure showcases a series of missing numbers within these columns.
+Figure 1.1 illustrates the initial step of the analysis, which involved utilizing Python to identify missing values within 6 columns of the Salary dataset. This figure showcases a series of missing numbers within these columns.
 
 <h2 align="center"> 
 
@@ -43,7 +43,7 @@ Figure 1.1 illustrates the initial step of the analysis, which involved utilizin
 <h2 align="center"> <small>FIGURE 1.2:Row with Missing value</small> </h2>
  
   
-Figure 1.2 shows the 5 rows that contain missing values across any of the columns. The analysis then determined the exact rows within the dataset where values were missing.
+Figure 1.2 shows the 6 rows that contain missing values across any of the columns. The analysis then determined the exact rows within the dataset where values were missing.
 
 
 ### **2. Dealing with missing data in your dataset**
