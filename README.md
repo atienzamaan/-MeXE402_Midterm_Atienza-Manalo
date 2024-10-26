@@ -95,7 +95,8 @@ Label Encoder
 
 Figure 3.1 utilized a label encoder to replace all numeric values with non-numeric values, a requirement for linear regression.
 
-Note: There was an issue with the Bachelor's degree data where values from 1 to 1000 were equivalent to "0," and values 1001 and above were equivalent to "1." This was corrected using the Find and Replace method in Excel.
+Note: There was an issue with the Bachelor's degree data where the columns named "Bachelor's" from 1 to 1000 were equivalent to "0," and values 1001 and above were equivalent to "1." This was corrected using the Find and Replace method in Excel.
+
 
 ### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
 
