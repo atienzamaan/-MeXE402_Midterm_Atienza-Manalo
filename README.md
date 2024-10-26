@@ -107,11 +107,7 @@ Note: There was an issue with the Bachelor's degree data where values from 1 to 
 <h2 align="center"> <small>FIGURE 4.1:Reference Value</h2>
 
 
-Figure 4.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, containing 316 unique job titles, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. As Gender was not included , the following reference values apply: 
-
-- Male = 1
-- Female = 0.
-
+Figure 4.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, containing 201 unique job titles, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. 
 
 # **MODEL IMPLEMENTATION**:
 
