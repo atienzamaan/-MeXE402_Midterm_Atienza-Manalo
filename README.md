@@ -20,52 +20,39 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 ## Data Preprocessing
 
-### **1.	Handle Missing Values**
+### **1.	1.	Categorize the salaries from highest to lowest based on job title **
    
  <h2 align="center"> 
   
-![image](https://github.com/user-attachments/assets/8c1a99fb-feb7-4fe8-b4cc-4e9c62596bb9)
+![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
 
 
-<h2 align="center"> <small>FIGURE 1.1:Total number of missing values</small> </h2>
+<h2 align="center"> <small>Figure 1.1 Salary Range</small> </h2>
   
-Figure 1.1 illustrates the initial step of the analysis, which involved utilizing Python to identify missing values within 6 columns of the Salary dataset. This figure showcases a series of missing numbers within these columns.
-
-<h2 align="center"> 
-
-![image](https://github.com/user-attachments/assets/035f86ca-7359-44c3-8cab-68a0474f6200)
-
-
-</h2>
+In Figure 1.1 Salary Range table shows the salary categorization from highest to lowest based on job title Salary range organizing wages based on job titles from highest to lowest simplifies data, for analysis purposes and assists in recognizing discrepancies and patterns in pay scales across roles within the organization.
 
 
 
-<h2 align="center"> <small>FIGURE 1.2:Row with Missing value</small> </h2>
- 
-  
-Figure 1.2 shows the 6 rows that contain missing values across any of the columns. The analysis then determined the exact rows within the dataset where values were missing.
-
-
-### **2. Dealing with missing data in your dataset**
-
-
->>2.1	Removing records with missing values.
-
+### **2.Converting non-numerical to numerical values.**
 
 <h2 align="center"> 
  
-![image](https://github.com/user-attachments/assets/1aa758d8-4c13-4c9c-9622-d31812b1a981)
+![image](https://github.com/user-attachments/assets/55ddd932-ebe5-4241-bda6-039b81c31892)
 
 
-<h2 align="center"> <small>FIGURE 2.1:Removing Unnecessary Data</small> </h2>
 
-Figure 2.1 codes ensure that any missing values (NaNs) in the six specified columns (Age, Gender, Educational Level, Job Title, Years of Experience, Salary) are replaced with the most common value (mode) for each column. This is a common technique when handling categorical or numerical data with missing values, where replacing missing data with the mode. It can help maintain the distribution of the dataset.
+<h2 align="center"> <small>Figure 2.1 Numerical Value</small> </h2>
+
+In Figure 2.1 Numerical Value using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
+
+
 
 >>2.2 Saving the cleaned Dataset.
 
 <h2 align="center"> 
  
-![image](https://github.com/user-attachments/assets/93d7de5d-4fc6-4861-826c-156eb8cf82f8)
+![image](https://github.com/user-attachments/assets/37130018-b23e-452c-9e73-db08b7c44393)
+
 
 <h2 align="center"> 
  
