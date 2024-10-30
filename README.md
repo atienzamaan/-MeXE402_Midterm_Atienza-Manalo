@@ -19,7 +19,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 ## Data Preprocessing
 
-### **1.	Categorize job titles according to salaries from lowest to highest.**
+### **1.	Categorize job titles according to salaries from highest to lowest**
    
  <h2 align="center"> 
   
