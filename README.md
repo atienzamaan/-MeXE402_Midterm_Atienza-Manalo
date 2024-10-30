@@ -3,6 +3,8 @@
 
 # Linear Regression
 # **Introduction**
+
+
 # **Dataset Description**
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### **Key Features**:
@@ -20,7 +22,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 ## Data Preprocessing
 
-### **1.	1.	Categorize the salaries from highest to lowest based on job title **
+### **1.	Categorize job titles according to salaries from lowest to highest.  **
    
  <h2 align="center"> 
   
@@ -43,59 +45,53 @@ In Figure 1.1 Salary Range table shows the salary categorization from highest to
 
 <h2 align="center"> <small>Figure 2.1 Numerical Value</small> </h2>
 
-In Figure 2.1 Numerical Value using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
+In Figure 2.1 using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
 
 
 
->>2.2 Saving the cleaned Dataset.
+## **3.References for numerical Value.**
 
 <h2 align="center"> 
  
 ![image](https://github.com/user-attachments/assets/37130018-b23e-452c-9e73-db08b7c44393)
 
+![image](https://github.com/user-attachments/assets/0b758e7f-ba2c-4aaf-a8b5-5978ab7e58c7)
 
-<h2 align="center"> 
- 
-![image](https://github.com/user-attachments/assets/053e362a-53d8-4e4a-ba68-5780666d63e9)
+<h2 align="center"> <small>FIGURE 3.1 List </small> </h2>
 
-<h2 align="center"> <small>FIGURE 2.2:FILE LOCATION</small> </h2>
+Figure 3.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. 
 
-Figure 2.2 illustrates the steps taken to address missing data within the dataset. The final dataset, incorporating these changes, can be located in a folder named 'Documents/Projects'.
-
-## **3. Converting categorical labels/text to numeric form.**
-
-Label Encoder 
->A Label Encoder in scikit-learn is used to convert categorical labels (text or other non-numeric values) into numerical form. This is particularly useful in machine learning models, which generally require inputs to be in numeric form.
-
+## **4.	 Removing variables to improve accuracy by focusing on relevant data.**
 
 <h2 align="center"> 
 
-![image](https://github.com/user-attachments/assets/38ae0f3b-27e0-415b-aaf8-d54d03bdf8ff)
+![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
+
+<h2 align="center"> <small>FIGURE 4.1 REMOVING UNNCECESSARY DATA </small> </h2>
+
+Figure 4.1 demostrate that removing age and gender can improve data accuracy by eliminating irrelevant or potentially biased information. This streamlines the dataset, focusing only on relevant variables, which enhances model performance and leads to clearer insights.
+
+## **5.	Check for missing values in each Rows and column. **
 
 
-![image](https://github.com/user-attachments/assets/f940fd7a-6575-4ea5-84b4-4a3dcc7f9a38)
+<h2 align="center"> 
+
+![image](https://github.com/user-attachments/assets/eaec1bb6-5731-4ec1-b96d-a4d1a1c2a618)
 
 
+<h2 align="center"> <small>FIGURE 5.1 MISSING VALUES </small> </h2>
 
-<h2 align="center"> <small>FIGURE 3.1:Changing Variables to Numeric</small> </h2>
+In Figure 4.1 it is crucial, during data pre-processing where missing values are checked along the rows and columns. It identifies gaps in a dataset, and analysts go on to decide how such gaps or missing values in a dataset should be dealt with-imputed, dropped, or interpolated. Preserving data integrity is usually helped by handling missing values and generally improves the general quality and reliability of any analysis.
 
+## **6.	Handling missing values**
 
-Figure 3.1 utilized a label encoder to replace all numeric values with non-numeric values, a requirement for linear regression.
+<h2 align="center"> 
 
-Note: There was an issue with the Bachelor's degree data where the columns named "Bachelor's" from 1 to 1000 were equivalent to "0," and values 1001 and above were equivalent to "1." This was corrected using the Find and Replace method in Excel.
+![image](https://github.com/user-attachments/assets/0bc2128b-c385-4d77-b15e-6ff014ba7eaa)
 
+<h2 align="center"> <small>FIGURE 6.1 CLEANING THE DATASET </small> </h2>
 
-### **4. Map out the Excel file for easy reference, allowing you to understand what the numeric values represent**
-
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/3a1ad860-ba16-40a2-a2c1-128bec2f79e0)
-
-
-<h2 align="center"> <small>FIGURE 4.1:Reference Value</h2>
-
-
-Figure 4.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, containing 201 unique job titles, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. 
+In Figure 6.1 shows how to perform accurate cleaning of data to correct inaccuracies and inconsistencies, ensuring high data quality. This process involves handling missing values, removing duplicates, and standardizing formats. Automating these tasks improves efficiency and accuracy, leading to more reliable insights for analysis and decision-making.
 
 # **MODEL IMPLEMENTATION**:
 
