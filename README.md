@@ -19,7 +19,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 ## Data Preprocessing
 
-### **1.	Categorize job titles according to salaries from lowest to highest. **
+### **1.	Categorize job titles according to salaries from lowest to highest.**
    
  <h2 align="center"> 
   
@@ -40,13 +40,13 @@ In Figure 1.1 Salary Range table shows the salary categorization from highest to
 
 
 
-<h2 align="center"> <small>Figure 2.1 Numerical Value</small> </h2>
+<h2 align="center"> <small>Figure 2.1 NUMERICAL VALUE</small> </h2>
 
 In Figure 2.1 using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
 
 
 
-## **3.References for numerical Value.**
+### **3.References for Numerical Value.**
 
 <h2 align="center"> 
  
@@ -54,11 +54,11 @@ In Figure 2.1 using Excel's 'Find and Replace' feature to convert job titles and
 
 ![image](https://github.com/user-attachments/assets/0b758e7f-ba2c-4aaf-a8b5-5978ab7e58c7)
 
-<h2 align="center"> <small>FIGURE 3.1 List </small> </h2>
+<h2 align="center"> <small>FIGURE 3.1 LIST </small> </h2>
 
 Figure 3.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. 
 
-## **4.Removing variables to improve accuracy by focusing on relevant data.**
+### **4.Removing variables to improve accuracy by focusing on relevant data.**
 
 <h2 align="center"> 
 
@@ -68,7 +68,7 @@ Figure 3.1 provides a comprehensive list of reference values associated with the
 
 Figure 4.1 demostrate that removing age and gender can improve data accuracy by eliminating irrelevant or potentially biased information. This streamlines the dataset, focusing only on relevant variables, which enhances model performance and leads to clearer insights.
 
-## **5.Check for missing values in each Rows and column. **
+### **5.Check for missing values in each Rows and column. **
 
 
 <h2 align="center"> 
@@ -80,7 +80,7 @@ Figure 4.1 demostrate that removing age and gender can improve data accuracy by 
 
 In Figure 4.1 it is crucial, during data pre-processing where missing values are checked along the rows and columns. It identifies gaps in a dataset, and analysts go on to decide how such gaps or missing values in a dataset should be dealt with-imputed, dropped, or interpolated. Preserving data integrity is usually helped by handling missing values and generally improves the general quality and reliability of any analysis.
 
-## **6.	Handling missing values**
+### **6.	Handling missing values**
 
 <h2 align="center"> 
 
