@@ -3,9 +3,6 @@
 
 # Linear Regression
 # **Introduction**
-
-
-# **Dataset Description**
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### **Key Features**:
   - `Salary`:The corresponding salary of the employee (in dollars).
@@ -22,7 +19,7 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 ## Data Preprocessing
 
-### **1.	Categorize job titles according to salaries from lowest to highest.  **
+### **1.	Categorize job titles according to salaries from lowest to highest. **
    
  <h2 align="center"> 
   
@@ -61,7 +58,7 @@ In Figure 2.1 using Excel's 'Find and Replace' feature to convert job titles and
 
 Figure 3.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. 
 
-## **4.	 Removing variables to improve accuracy by focusing on relevant data.**
+## **4.Removing variables to improve accuracy by focusing on relevant data.**
 
 <h2 align="center"> 
 
@@ -71,7 +68,7 @@ Figure 3.1 provides a comprehensive list of reference values associated with the
 
 Figure 4.1 demostrate that removing age and gender can improve data accuracy by eliminating irrelevant or potentially biased information. This streamlines the dataset, focusing only on relevant variables, which enhances model performance and leads to clearer insights.
 
-## **5.	Check for missing values in each Rows and column. **
+## **5.Check for missing values in each Rows and column. **
 
 
 <h2 align="center"> 
