@@ -96,16 +96,18 @@ In Figure 6.1 shows how to perform accurate cleaning of data to correct inaccura
 <h2 align="center">
 
  
-![image](https://github.com/user-attachments/assets/550a35c0-73dd-42b4-bf67-0038f6c0cf4b)
+![image](https://github.com/user-attachments/assets/83f3e0bc-d39b-4a19-9126-6bdb1a22bb83)
 
 
+<h2 align="center"> <small> IMPORTING THE DATASET</small> </h2>
 
-
-####First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.</h2>
+First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.</h2>
 
 <h2 align="center">
 
-![image](https://github.com/user-attachments/assets/b0ba06d9-6f78-4378-a43a-8e3b07c86352)
+![image](https://github.com/user-attachments/assets/3266886b-06c5-454c-9b86-a3a6ede99e51)
+
+<h2 align="center"> <small> INPUTS AND OUPUTS</small> </h2>
 
 The code effectively separates the dataset into two parts:
 -	X: Contains the independent variables (features) that will be used to predict the salary.
@@ -114,7 +116,9 @@ This step is crucial in machine learning workflows as it prepares the data for t
 
 <h2 align="center">
 
-![image](https://github.com/user-attachments/assets/7d72a08e-f5c3-4fdf-b57c-1bd8e0cd36e6)
+![image](https://github.com/user-attachments/assets/9eabf698-97be-4010-9468-e02d5fa7e299)
+
+<h2 align="center"> <small>TRAINING AND TEST SET</small> </h2>
 
 
 The train_test_split function is imported from the sklearn.model_selection module. This module provides various tools for model selection and evaluation. The train_test_split function is called with the input features (X), the target variable (y), the desired test set size (test_size=0.2), and a random seed (random_state=0). 
@@ -122,31 +126,40 @@ The train_test_split function is imported from the sklearn.model_selection modul
 
 •  Output: The function returns four sets: 
 
-•	X_train: Contains the features of the training set.
 
 <h2 align="center">
 
-![image](https://github.com/user-attachments/assets/cca04608-22b3-435b-abf6-9f9749440f1c)
+![image](https://github.com/user-attachments/assets/7bebabbb-87f4-48e3-a614-53e0a5f4a9e3)
+
+<h2 align="center">X_train: Contains the features of the training set.</small> </h2>
 
 
-•	X_test: Contains the features of the testing set.
+
 
 <h2 align="center">
 
-![image](https://github.com/user-attachments/assets/7622d195-4ca6-4339-bb65-4773e1dc2ab9)
-
-•	y_train: Contains the target variable of the training set.
-
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/7784ec50-d46c-4603-82ed-662fe2edb120)
+![image](https://github.com/user-attachments/assets/2244072a-f900-4b2e-ab1d-dfd4d8baf578)
 
 
-•	y_test: Contains the target variable of the testing set.
+<h2 align="center">	X_test: Contains the features of the testing set.</small> </h2>
+
+
 
 <h2 align="center">
 
-![image](https://github.com/user-attachments/assets/8ad4cf68-60ec-4584-a084-f9c22ff7daf3)
+![image](https://github.com/user-attachments/assets/fc73a1a5-a60b-4e6d-a13f-c344a3fb0e19)
+
+
+<h2 align="center">	y_train: Contains the target variable of the training set.</small> </h2>
+
+
+<h2 align="center">
+
+![image](https://github.com/user-attachments/assets/04200141-d4e5-4e4d-ae1d-94b97754f686)
+
+
+<h2 align="center">y_test: Contains the target variable of the testing set..</small> </h2>
+
 
 
 ![image](https://github.com/user-attachments/assets/66bb8180-9615-4fa0-b227-d51f6929f2a1)
