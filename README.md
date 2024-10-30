@@ -92,16 +92,19 @@ In Figure 6.1 shows how to perform accurate cleaning of data to correct inaccura
 
 # **MODEL IMPLEMENTATION**:
 
-1. 
+
 <h2 align="center">
 
  
 ![image](https://github.com/user-attachments/assets/550a35c0-73dd-42b4-bf67-0038f6c0cf4b)
 
 
-<h2 align="center"> <small>First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.</h2>
+<h2 align="center"> <small>
+
+First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.</h2>
 
 
+</h2>
 <h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/b0ba06d9-6f78-4378-a43a-8e3b07c86352)
