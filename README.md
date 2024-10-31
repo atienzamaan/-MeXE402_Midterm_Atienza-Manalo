@@ -157,13 +157,12 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
 
 
 ### Making Predictions
-
-<h2 align="center">
- 
-![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
-
-
 - This line of code uses the trained model (`model`) to make a prediction on a new data point.  In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`.  The `predict` method returns a predicted value, which in this case is `92877.53123063`. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
+
+   <h2 align="center">
+ 
+ ![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
+
 
 ## Discussion
 
