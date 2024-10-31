@@ -32,8 +32,17 @@ Organize job titles in order of salaries from highest to lowest, simplifying dat
  
 ![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
 
+## 2. Remove Irrelevant Variables
+To improve prediction accuracy, remove irrelevant data such as age and gender. This helps reduce potential bias and focuses the dataset on relevant information for analysis.
 
-## 2. Convert Non-Numerical to Numerical Values
+
+<h2 align="center">
+ 
+![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
+
+
+
+## 3. Convert Non-Numerical to Numerical Values
 Using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
 
 <h2 align="center">
@@ -59,13 +68,6 @@ Using Excel's 'Find and Replace' feature to convert job titles and educational l
 - **Master’s** = 3
 - **PhD** = 4
 
-## 3. Remove Irrelevant Variables
-To improve prediction accuracy, remove irrelevant data such as age and gender. This helps reduce potential bias and focuses the dataset on relevant information for analysis.
-
-
-<h2 align="center">
- 
-![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
 
 ## 4. Check for Missing Values
 During data preprocessing, examine rows and columns for missing values. Identify gaps to decide on handling methods, such as imputation, dropping, or interpolation, to improve data integrity.
