@@ -3,7 +3,7 @@
 
 # Linear Regression
 # **Introduction**
-
+Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
 ## Dataset Description
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### **Key Features**:
@@ -28,6 +28,8 @@ This guide outlines the preprocessing steps used to prepare data for analysis an
 Organize job titles in order of salaries from highest to lowest, simplifying data for analysis and helping to identify discrepancies and patterns across roles within the organization.
 
 <h2 align="center">
+
+ 
 ![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
 
 
