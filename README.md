@@ -52,7 +52,7 @@ Using Excel's 'Find and Replace' feature to convert job titles and educational l
 - **Director** = 9
 - **Executive** = 10
   
-###  TheEducation Leve is represented by :
+###  The  Education Level is represented by :
 
 - **Highschool** = 1
 - **Bachelor’s** = 2
