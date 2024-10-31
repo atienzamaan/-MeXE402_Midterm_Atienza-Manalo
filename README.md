@@ -149,8 +149,11 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
   ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
 
   - **R-squared and Adjusted R-squared**: Measures model accuracy.
-![image](https://github.com/user-attachments/assets/38a211e0-dcb0-4f9c-8ce8-71e0a440c057)
-![image](https://github.com/user-attachments/assets/21817ce6-2e5e-4333-a863-17ec92bdc6c2)
+
+ <h2 align="center">
+  
+![image](https://github.com/user-attachments/assets/d712c426-d1da-4fa9-b525-90b04d048386)
+
 
 
 ### Making Predictions
