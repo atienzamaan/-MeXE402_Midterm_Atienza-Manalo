@@ -116,51 +116,7 @@ This project utilizes Python libraries to perform data manipulation, preprocessi
   - `train_test_split`: Splits the dataset into training and testing sets.
     ![image](https://github.com/user-attachments/assets/944c97ea-bba7-4df9-9377-7fe98cedd52d)
 
-  - `LinearRegression`: Applies the linear regression model.
- 
-  ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
-
-  - **R-squared and Adjusted R-squared**: Measures model accuracy.
-![image](https://github.com/user-attachments/assets/38a211e0-dcb0-4f9c-8ce8-71e0a440c057)
-
-![image](https://github.com/user-attachments/assets/2286a353-a8b1-4fef-a292-127696decf51)
-
-
-
-
-
-<h2 align="center">
-
- 
-![image](https://github.com/user-attachments/assets/83f3e0bc-d39b-4a19-9126-6bdb1a22bb83)
-
-
-<h2 align="center"> <small> IMPORTING THE DATASET</small> </h2>
-
-First, the panda’s library is imported as pd, which is a common convention. Then, the read_csv() function is used to load the CSV file named "Salary_Data_cleaned.csv" into a Pandas DataFrame named dataset. This Data Frame stores the data in a tabular format, making it easier to work with. Finally, the head () method is called on the dataset to display the first 5 rows of the DataFrame, providing a glimpse of the data's structure and content.</h2>
-
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/3266886b-06c5-454c-9b86-a3a6ede99e51)
-
-<h2 align="center"> <small> INPUTS AND OUPUTS</small> </h2>
-
-The code effectively separates the dataset into two parts:
--	X: Contains the independent variables (features) that will be used to predict the salary.
--	y: Contains the dependent variable (target) that represents the salary values to be predicted.
-This step is crucial in machine learning workflows as it prepares the data for training a model.
-
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/9eabf698-97be-4010-9468-e02d5fa7e299)
-
-<h2 align="center"> <small>TRAINING AND TEST SET</small> </h2>
-
-
-The train_test_split function is imported from the sklearn.model_selection module. This module provides various tools for model selection and evaluation. The train_test_split function is called with the input features (X), the target variable (y), the desired test set size (test_size=0.2), and a random seed (random_state=0). 
-
-
-•  Output: The function returns four sets: 
+    Output: The function returns four sets: 
 
 
 <h2 align="center">
@@ -200,29 +156,14 @@ The train_test_split function is imported from the sklearn.model_selection modul
 
 ![image](https://github.com/user-attachments/assets/6a57ca5d-b931-4293-82b0-acc77fa07227)
 
-
-
-This class provides a pre-built implementation of the linear regression algorithm. By creating an instance of this class, we effectively instantiate a linear regression model object. This model is now ready to be trained on the training data
-
-
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/99926d4e-bd5a-4de1-a547-a5ecf2f23af5)
-
-<h2 align="center">model.fit</small> </h2>
-
-This line of code trains the linear regression model (model) on the training data. The fit method is like a function that takes the training features (X_train) and the corresponding target variable (y_train) as input. It teaches the model the best way to relate the features to the target.
-
-
-<h2 align="center">
+  - `LinearRegression`: Applies the linear regression model.
  
-![image](https://github.com/user-attachments/assets/8d3f4c14-6868-42c6-8c7e-03a4719aff1c)
+  ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
 
+  - **R-squared and Adjusted R-squared**: Measures model accuracy.
+![image](https://github.com/user-attachments/assets/38a211e0-dcb0-4f9c-8ce8-71e0a440c057)
+![image](https://github.com/user-attachments/assets/21817ce6-2e5e-4333-a863-17ec92bdc6c2)
 
-
-<h2 align="center">model.predict</small> </h2>
-
-This line of code uses the trained model (model) to make predictions on the testing set (X_test). The predict method takes the input features of the testing set as input and returns the corresponding predicted target values. These predicted values are stored in the variable y_pred. 
 
 
 ### Making Predictions
