@@ -262,10 +262,10 @@ Model Performance:
 # Logistic Regression: Bank Marketing Campaign Analysis
 
 ## Introduction
-Logistic regression is a widely-used classification algorithm primarily applied to predict the probability of a binary outcome. This analysis uses logistic regression to forecast client behavior, specifically to predict whether a client will subscribe to a term deposit. The model explores relationships between client demographics, past campaign performance, and subscription likelihood.
+- Logistic regression is a widely-used classification algorithm primarily applied to predict the probability of a binary outcome. This analysis uses logistic regression to forecast client behavior, specifically to predict whether a client will subscribe to a term deposit. The model explores relationships between client demographics, past campaign performance, and subscription likelihood.
 
 ## Dataset Description
-The dataset used is the Bank Marketing Dataset from a marketing campaign conducted by a Portuguese financial institution. It includes details about client attributes, previous marketing campaigns, and whether the client subscribed to a term deposit.
+- The dataset used is the Bank Marketing Dataset from a marketing campaign conducted by a Portuguese financial institution. It includes details about client attributes, previous marketing campaigns, and whether the client subscribed to a term deposit.
 
 ### Key Features
 - **Client-related features**:
@@ -285,7 +285,7 @@ The dataset used is the Bank Marketing Dataset from a marketing campaign conduct
   - `deposit` (target variable): Indicates if the client subscribed to a term deposit (`yes` or `no`).
 
 ### Objective
-The objective is to build a model that predicts whether a client will subscribe to a term deposit based on their attributes and previous campaign performance.
+- The objective is to build a model that predicts whether a client will subscribe to a term deposit based on their attributes and previous campaign performance.
 
 ## Analysis
 
