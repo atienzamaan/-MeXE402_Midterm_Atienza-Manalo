@@ -1,97 +1,81 @@
  # MeXE402_Midterm_Atienza-Manalo
-#### Both Linear Regression and Logistic Regression are foundational techniques in machine learning used for different types of problems. While they share similarities in their structure, they are applied to distinct tasks and have different mathematical foundations. This repository will serve as our midterm exam that is designed to assess our understanding of Linear Regression and Logistic Regression through practical application on real-world datasets.
+#### 
+Both Linear Regression and Logistic Regression are foundational techniques in machine learning used for different types of problems. While they share similarities in their structure, they are applied to distinct tasks and have different mathematical foundations. This repository will serve as our midterm exam that is designed to assess our understanding of [Linear Regression](#linear-regression-salary-data-analysis) and [Logistic Regression](#logistic-regression-bank-marketing-campaign-analysis) through practical application on real-world datasets.
 
 # Linear Regression: Salary Data Analysis
-# **Introduction**
-Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
+
+## Introduction
+- Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
+
 ## Dataset Description
-This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
-#### **Key Features**:
+- This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
+  
+- **Key Features**:
   - `Salary`:The corresponding salary of the employee (in dollars).
   - `Years of Experience`: The number of years an employee has worked in their field.
   - `Gender:`The gender of the employee (e.g., Male, Female, Non-binary).
   - `Education Level:` The highest level of education attained by the employee (e.g., High School, Bachelor’s Degree, Master’s Degree, Ph.D.).
   - `Job title`: The employee's position or title within their organization (e.g., Software Engineer, Data Analyst, Project Manager).
   -  `Age:` The age of the employee (in years).
-#### **Dependent Variable**:
+
+-  **Dependent Variable**:
    - `Salary`:The corresponding salary of the employee (in dollars).
-# **Objective of the Dataset**
-The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
+   - 
+## Objective
+- The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
 
 # **Linear Regression Analysis**
 
-## Data Preprocessing
+### Data Preprocessing
+- This guide outlines the preprocessing steps used to prepare data for analysis and predictions, especially for salary-based job categorization and predictions.
 
-This guide outlines the preprocessing steps used to prepare data for analysis and predictions, especially for salary-based job categorization and predictions.
+### 1. Categorize Job Titles by Salary
+- Organize job titles in order of salaries from highest to lowest, simplifying data for analysis and helping to identify discrepancies and patterns across roles within the organization.
+<p align="center">
+<img alt = "Python" height="400" src="https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d">
 
-## 1. Categorize Job Titles by Salary
-Organize job titles in order of salaries from highest to lowest, simplifying data for analysis and helping to identify discrepancies and patterns across roles within the organization.
+### 2. Remove Irrelevant Variables
+- To improve prediction accuracy, remove irrelevant data such as age and gender. This helps reduce potential bias and focuses the dataset on relevant information for analysis.
+<p align="center">
+ <img alt = "Python" height="400" src="https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8">
 
+### 3. Convert Non-Numerical to Numerical Values
+- Using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
 <h2 align="center">
-
+<img alt = "Python" height="400" src="https://github.com/user-attachments/assets/55ddd932-ebe5-4241-bda6-039b81c31892">
  
-![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
-
-## 2. Remove Irrelevant Variables
-To improve prediction accuracy, remove irrelevant data such as age and gender. This helps reduce potential bias and focuses the dataset on relevant information for analysis.
-
-
-<h2 align="center">
- 
-![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
-
-
-
-## 3. Convert Non-Numerical to Numerical Values
-Using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
-
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/55ddd932-ebe5-4241-bda6-039b81c31892)
-
-### The following numerical values have been assigned to the Job Title:                      
-- **Intern** = 1
-- **Entry Level** = 2
-- **Junior** = 3
-- **Associate** = 4
-- **Mid-Level** = 5
-- **Senior** = 6
-- **Lead** = 7
-- **Manager** = 8
-- **Director** = 9
-- **Executive** = 10
-  
-###  The  Education Level is represented by :
-
+ #### The following numerical values have been assigned to the Job Title:                      
+ - **Intern** = 1
+ - **Entry Level** = 2
+ - **Junior** = 3
+ - **Associate** = 4
+ - **Mid-Level** = 5
+ - **Senior** = 6
+ - **Lead** = 7
+ - **Manager** = 8
+ - **Director** = 9
+ - **Executive** = 10
+   
+####  The  Education Level is represented by :
 - **Highschool** = 1
 - **Bachelor’s** = 2
 - **Master’s** = 3
 - **PhD** = 4
 
-
-## 4. Check for Missing Values
-During data preprocessing, examine rows and columns for missing values. Identify gaps to decide on handling methods, such as imputation, dropping, or interpolation, to improve data integrity.
-
+### 4. Check for Missing Values
+- During data preprocessing, examine rows and columns for missing values. Identify gaps to decide on handling methods, such as imputation, dropping, or interpolation, to improve data integrity.
 <h2 align="center">
+<img alt = "Python" width="600" src="https://github.com/user-attachments/assets/eaec1bb6-5731-4ec1-b96d-a4d1a1c2a618">
 
-![image](https://github.com/user-attachments/assets/eaec1bb6-5731-4ec1-b96d-a4d1a1c2a618)
-
-## 5. Handle Missing Values
-Clean data by correcting inaccuracies and inconsistencies, handling missing values, removing duplicates, and standardizing formats. Automating these tasks enhances data quality, leading to more reliable insights.
-
-<h2 align="center">
- 
-![image](https://github.com/user-attachments/assets/0bc2128b-c385-4d77-b15e-6ff014ba7eaa)
----
-
-# **MODEL IMPLEMENTATION**:
+### 5. Handle Missing Values
+- Clean data by correcting inaccuracies and inconsistencies, handling missing values, removing duplicates, and standardizing formats. Automating these tasks enhances data quality, leading to more reliable insights.
+  ![image](https://github.com/user-attachments/assets/0bc2128b-c385-4d77-b15e-6ff014ba7eaa)
 
 
-## Overview
+### Model Implementation
+- This project utilizes libraries to perform data manipulation, preprocessing, and modeling to create a reliable machine learning model. The focus is on **linear regression** with model accuracy measured through R-squared and Adjusted R-squared values.
 
-This project utilizes libraries to perform data manipulation, preprocessing, and modeling to create a reliable machine learning model. The focus is on **linear regression** with model accuracy measured through R-squared and Adjusted R-squared values.
-
-## Libraries Used
+#### Libraries Used
 
 - **Pandas**: For data manipulation and analysis, primarily reading, inspecting, and cleaning the dataset.
   - `pd.read_csv()`: Loads the dataset.
@@ -112,39 +96,29 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
 
     Output: The function returns four sets: 
 
-
+<h4 align="center">X_train: Contains the features of the training set.</small> </h2>
 <h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/7bebabbb-87f4-48e3-a614-53e0a5f4a9e3)
 
-<h2 align="center">X_train: Contains the features of the training set.</small> </h2>
 
-
-
-
+<h4 align="center">	X_test: Contains the features of the testing set.</small> </h2>
 <h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/2244072a-f900-4b2e-ab1d-dfd4d8baf578)
 
 
-<h2 align="center">	X_test: Contains the features of the testing set.</small> </h2>
-
-
-
+<h4 align="center">	y_train: Contains the target variable of the training set.</small> </h2>
 <h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/fc73a1a5-a60b-4e6d-a13f-c344a3fb0e19)
 
 
-<h2 align="center">	y_train: Contains the target variable of the training set.</small> </h2>
-
-
+<h4 align="center">y_test: Contains the target variable of the testing set..</small> </h2>
 <h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/04200141-d4e5-4e4d-ae1d-94b97754f686)
 
-
-<h2 align="center">y_test: Contains the target variable of the testing set..</small> </h2>
 
   - `LinearRegression`: Applies the linear regression model.
  
@@ -156,18 +130,15 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
   
 ![image](https://github.com/user-attachments/assets/d712c426-d1da-4fa9-b525-90b04d048386)
 
-
-
 ### Making Predictions
 - This line of code uses the trained model (`model`) to make a prediction on a new data point.  In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`.  The `predict` method returns a predicted value, which in this case is `92877.53123063`. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
 
    <h2 align="center">
- 
- ![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
+    
+  ![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
 
 
 ## Discussion
-
 1. **R-squared (R²)**: 0.9226
    - R² explains how well the independent variables account for the variance in the dependent variable (salary).
    - 92.26% of the variability in salary is explained by the model. This is a high value, indicating that the model captures most of the determinants of salary.
@@ -180,9 +151,7 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
 
 - The high R² and Adjusted R² values around 92% imply that model has strong predictive power. It captures almost all the variability in salary, leaving only about 8% unexplained, which could be due to factors not included in the model, such as industry type, company size, performance incentives, or location.In regression models, the coefficients represent the effect of each independent variable on the dependent variable. Each coefficient tells how much the dependent variable is expected to change when that particular independent variable increases by one unit while holding all other variables constant.
 
-
-------
-
+---------------------
 # Logistic Regression: Bank Marketing Campaign Analysis
 
 ## Introduction
@@ -207,10 +176,10 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
 - **Output**:
   - `deposit` (target variable): Indicates if the client subscribed to a term deposit (`yes` or `no`).
 
-### Objective
+## Objective
 - The objective is to build a model that predicts whether a client will subscribe to a term deposit based on their attributes and previous campaign performance.
 
-## Analysis
+## Logistic Regression Analysis
 
 ### Data Preprocessing
 1. **Handling Missing Values**:
@@ -261,8 +230,6 @@ The following libraries are used:
   - **Functions**:
     - `pd.read_csv()`: Loads the dataset.
       ![image](https://github.com/user-attachments/assets/ef6abf66-757d-4efe-aa2d-d96913640c39)
-      ![image](https://github.com/user-attachments/assets/d7aeaaa2-fc9a-471b-9e06-20e05c1c1e1d)
-
 
     - `dataset.isnull()`: Checks for missing values.
       ![image](https://github.com/user-attachments/assets/b57f2a6f-7f7d-4c55-a61b-7b11be968ad0)
@@ -279,6 +246,7 @@ The following libraries are used:
   - **Functions**:
     - `LabelEncoder`: Encodes categorical variables numerically.
       ![image](https://github.com/user-attachments/assets/0d86d4fa-d9a6-4d4c-a82f-f692367abd13)
+       ![image](https://github.com/user-attachments/assets/d7aeaaa2-fc9a-471b-9e06-20e05c1c1e1d)
 
     - `train_test_split`: Splits the dataset into training and testing sets.
       ![image](https://github.com/user-attachments/assets/678a95ec-4f0e-43c0-8ce3-c9fe27ff7830)
