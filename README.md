@@ -162,7 +162,8 @@ The train_test_split function is imported from the sklearn.model_selection modul
 
 
 
-![image](https://github.com/user-attachments/assets/1450334d-e128-4b15-bbaa-502690c93c34)
+![image](https://github.com/user-attachments/assets/6a57ca5d-b931-4293-82b0-acc77fa07227)
+
 
 
 This class provides a pre-built implementation of the linear regression algorithm. By creating an instance of this class, we effectively instantiate a linear regression model object. This model is now ready to be trained on the training data
