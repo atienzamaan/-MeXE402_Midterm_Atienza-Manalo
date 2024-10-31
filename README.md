@@ -173,7 +173,7 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
   - `duration`: Duration of the last call in seconds (indicator of engagement).
   - `campaign`: Number of contacts made during the campaign.
 
-- **Output**:
+- **Dependent Variable**:
   - `deposit` (target variable): Indicates if the client subscribed to a term deposit (`yes` or `no`).
 
 ## Objective
