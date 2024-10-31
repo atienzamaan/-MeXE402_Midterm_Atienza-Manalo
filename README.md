@@ -178,14 +178,6 @@ This project utilizes Python libraries to perform data manipulation, preprocessi
 
 The coefficients in a salary dataset provide valuable insights into which factors are most influential in predicting salary. They help identify patterns like gender pay gaps, the impact of education, and the value of experience, which can guide decisions related to compensation strategies, hiring practices, and addressing potential salary disparities. Here are the importance of coefficient under: 
 
-#### **Age**:
-
-The coefficient for age indicates how salary is expected to change with each additional year of age. In this dataset, it suggests that older individuals tend to earn more, likely due to the accumulation of experience or seniority.
-
-#### **Gender**:
-
-The gender coefficient measures the salary difference between males and females. In this dataset, there is no strong evidence of a significant gender-based salary gap.
-
 #### **Education Levelt**:
 
 
@@ -201,25 +193,20 @@ This coefficient reflects salary differences across various roles. It indicates 
 Experience is one of the most critical factors. The coefficient for years of experience suggests that salary tends to increase with each additional year showing the rate of salary growth.
 
 
+## Discussion
 
-## **Model’s Predictive Power**:
+1. **R-squared (R²)**: 0.9226
+   - R² explains how well the independent variables account for the variance in the dependent variable (salary).
+   - 92.26% of the variability in salary is explained by the model. This is a high value, indicating that the model captures most of the determinants of salary.
 
-The predictive power of your model can be assessed using metrics like R-squared (R²), Adjusted R-squared, and error measures. 
+2. **Adjusted R-squared**: 0.9223
+   - Adjusted R² adjusts for the number of predictors in the model, penalizing the inclusion of irrelevant predictors that don’t improve predictive power.
+   - 92.23% means that even after accounting for the complexity of the model, it still explains the majority of the variance in salary. The slight decrease from R² suggests that the number of predictors is appropriate and that the model isn’t overfitting.
 
-## **Key Metrics**:
+### Interpretation
 
-1.	R-squared (R²): 0.6617
-   
-- R² explains how well the independent variables account for the variance in the dependent variable (salary).
-- 66.17% of the variability in salary is explained by the model. This is moderately good, suggesting that your model captures most but not all of the salary determinants.
+- The high R² and Adjusted R² values around 92% imply that your model has strong predictive power. It captures almost all the variability in salary, leaving only about 8% unexplained, which could be due to factors not included in the model, such as industry type, company size, performance incentives, or location.
 
-2.	Adjusted R-squared: 0.6603
-- Adjusted R² adjusts for the number of predictors in the model. It penalizes the inclusion of irrelevant predictors that don't contribute to the model's predictive power.
-- 66.03% means that even after accounting for the complexity of the model (number of predictors), the model still explains most of the variance in salary. The slight decrease from R² indicates that the model isn’t overfitting, as the number of predictors is appropriate.
-  
-Model Performance:
-
-•	The R² and Adjusted R² values around 66% imply that your model has a moderate predictive power. While the model captures a large part of the variability in salary, there's still about 34% that remains unexplained. This could be due to other factors not included in the model, such as industry type, company size, performance incentives, or even location.
 
 ------
 
