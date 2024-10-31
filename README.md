@@ -176,7 +176,7 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
 
 ### Interpretation
 
-- The high R² and Adjusted R² values around 92% imply that your model has strong predictive power. It captures almost all the variability in salary, leaving only about 8% unexplained, which could be due to factors not included in the model, such as industry type, company size, performance incentives, or location.In regression models, the coefficients represent the effect of each independent variable on the dependent variable. Each coefficient tells how much the dependent variable is expected to change when that particular independent variable increases by one unit while holding all other variables constant.
+- The high R² and Adjusted R² values around 92% imply that model has strong predictive power. It captures almost all the variability in salary, leaving only about 8% unexplained, which could be due to factors not included in the model, such as industry type, company size, performance incentives, or location.In regression models, the coefficients represent the effect of each independent variable on the dependent variable. Each coefficient tells how much the dependent variable is expected to change when that particular independent variable increases by one unit while holding all other variables constant.
 
 
 ------
