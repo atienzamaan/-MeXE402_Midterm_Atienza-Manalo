@@ -91,6 +91,43 @@ In Figure 6.1 shows how to perform accurate cleaning of data to correct inaccura
 
 # **MODEL IMPLEMENTATION**:
 
+A comprehensive implementation of data preprocessing and modeling using Python for predictive analytics.
+
+## Overview
+
+This project utilizes Python libraries to perform data manipulation, preprocessing, and modeling to create a reliable machine learning model. The focus is on **linear regression** with model accuracy measured through R-squared and Adjusted R-squared values.
+
+## Libraries Used
+
+- **Pandas**: For data manipulation and analysis, primarily reading, inspecting, and cleaning the dataset.
+  - `pd.read_csv()`: Loads the dataset.
+ ![image](https://github.com/user-attachments/assets/608c3062-c835-45ea-9ba6-e90ac5b15d74)
+    
+  - `dataset.isnull()`: Checks for missing values.
+    
+    ![image](https://github.com/user-attachments/assets/ae287bad-7f5b-4bf1-85e3-a5596b4c4d97)
+
+  - `fillna()`: Fills missing values in the dataset.
+    ![image](https://github.com/user-attachments/assets/d981de68-b57b-433f-817f-d36ecd0d5f0b)
+
+
+- **Scikit-Learn**: For machine learning model creation and evaluation.
+  
+  - `train_test_split`: Splits the dataset into training and testing sets.
+    ![image](https://github.com/user-attachments/assets/944c97ea-bba7-4df9-9377-7fe98cedd52d)
+
+  - `LinearRegression`: Applies the linear regression model.
+ 
+  ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
+
+  - **R-squared and Adjusted R-squared**: Measures model accuracy.
+![image](https://github.com/user-attachments/assets/38a211e0-dcb0-4f9c-8ce8-71e0a440c057)
+
+![image](https://github.com/user-attachments/assets/2286a353-a8b1-4fef-a292-127696decf51)
+
+
+
+
 
 <h2 align="center">
 
