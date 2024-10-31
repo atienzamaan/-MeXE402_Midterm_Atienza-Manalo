@@ -3,6 +3,8 @@
 
 # Linear Regression
 # **Introduction**
+
+## Dataset Description
 This dataset contains information about salaries, years of experience, and other relevant factors. It's a suitable dataset for predicting salaries based on experience using linear regression.
 #### **Key Features**:
   - `Salary`:The corresponding salary of the employee (in dollars).
@@ -15,6 +17,7 @@ This dataset contains information about salaries, years of experience, and other
    - `Salary`:The corresponding salary of the employee (in dollars).
 # **Objective of the Dataset**
 The objective of the Salary Dataset is to analyze the relationship between salaries and years of experience and to build predictive models using linear regression. The primary goal is to predict an individual's salary based on their years of experience and other relevant factors. This can help in understanding salary trends, making informed salary forecasts, and identifying patterns between experience and earnings.
+
 # **Linear Regression Analysis**
 
 ## Data Preprocessing
@@ -24,16 +27,18 @@ This guide outlines the preprocessing steps used to prepare data for analysis an
 ## 1. Categorize Job Titles by Salary
 Organize job titles in order of salaries from highest to lowest, simplifying data for analysis and helping to identify discrepancies and patterns across roles within the organization.
 
-
+<h2 align="center">
 ![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
 
 
 ## 2. Convert Non-Numerical to Numerical Values
 Use Excel's "Find and Replace" or programming methods to convert non-numerical data such as job titles and education levels into numerical values. This enhances data consistency and improves prediction accuracy in linear regression models.
 
+<h2 align="center">
+
 ![image](https://github.com/user-attachments/assets/55ddd932-ebe5-4241-bda6-039b81c31892)
 
-### Salary Range Mapping by Job Title:
+### Salary Range Mapping by Job Title:                      
 | Job Title    | Category Reference Value |
 |--------------|--------------------------|
 | Intern       | 1                        |
@@ -59,93 +64,24 @@ Use Excel's "Find and Replace" or programming methods to convert non-numerical d
 ## 3. Remove Irrelevant Variables
 To improve prediction accuracy, remove irrelevant data such as age and gender. This helps reduce potential bias and focuses the dataset on relevant information for analysis.
 
+
+<h2 align="center">
+ 
 ![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
 
 ## 4. Check for Missing Values
 During data preprocessing, examine rows and columns for missing values. Identify gaps to decide on handling methods, such as imputation, dropping, or interpolation, to improve data integrity.
+
+<h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/eaec1bb6-5731-4ec1-b96d-a4d1a1c2a618)
 
 ## 5. Handle Missing Values
 Clean data by correcting inaccuracies and inconsistencies, handling missing values, removing duplicates, and standardizing formats. Automating these tasks enhances data quality, leading to more reliable insights.
 
-
+<h2 align="center">
 ![image](https://github.com/user-attachments/assets/0bc2128b-c385-4d77-b15e-6ff014ba7eaa)
 ---
-
-
-
-
-
-### **1.	Categorize job titles according to salaries from highest to lowest**
-   
- <h2 align="center"> 
-  
-![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
-
-
-<h2 align="center"> <small>Figure 1.1 Salary Range</small> </h2>
-  
-In Figure 1.1 Salary Range table shows the salary categorization from highest to lowest based on job title Salary range organizing wages based on job titles from highest to lowest simplifies data, for analysis purposes and assists in recognizing discrepancies and patterns in pay scales across roles within the organization.
-
-
-
-### **2.Converting non-numerical to numerical values.**
-
-<h2 align="center"> 
- 
-![image](https://github.com/user-attachments/assets/55ddd932-ebe5-4241-bda6-039b81c31892)
-
-
-
-<h2 align="center"> <small>Figure 2.1 NUMERICAL VALUE</small> </h2>
-
-In Figure 2.1 using Excel's 'Find and Replace' feature to convert job titles and educational levels into numerical values enhances data consistency. This allows for more accurate pay distribution analysis, helping linear regression predictions become more precise.
-
-
-
-### **3.References for Numerical Value.**
-
-<h2 align="center"> 
- 
-![image](https://github.com/user-attachments/assets/37130018-b23e-452c-9e73-db08b7c44393)
-
-![image](https://github.com/user-attachments/assets/0b758e7f-ba2c-4aaf-a8b5-5978ab7e58c7)
-
-<h2 align="center"> <small>FIGURE 3.1 LIST </small> </h2>
-
-Figure 3.1 provides a comprehensive list of reference values associated with the numerical data used in the analysis. Due to the extensive nature of the dataset, it is recommended to consult the accompanying Excel file named "Salary_Data_Reference_Value" for a detailed reference of numerical values. 
-
-### **4.Removing variables to improve accuracy by focusing on relevant data.**
-
-<h2 align="center"> 
-
-![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
-
-<h2 align="center"> <small>FIGURE 4.1 REMOVING UNNCECESSARY DATA </small> </h2>
-
-Figure 4.1 demostrate that removing age and gender can improve data accuracy by eliminating irrelevant or potentially biased information. This streamlines the dataset, focusing only on relevant variables, which enhances model performance and leads to clearer insights.
-
-### **5.Check for missing values in each Rows and column.**
-
-<h2 align="center"> 
-
-![image](https://github.com/user-attachments/assets/eaec1bb6-5731-4ec1-b96d-a4d1a1c2a618)
-
-
-<h2 align="center"> <small>FIGURE 5.1 MISSING VALUES </small> </h2>
-
-In Figure 4.1 it is crucial, during data pre-processing where missing values are checked along the rows and columns. It identifies gaps in a dataset, and analysts go on to decide how such gaps or missing values in a dataset should be dealt with-imputed, dropped, or interpolated. Preserving data integrity is usually helped by handling missing values and generally improves the general quality and reliability of any analysis.
-
-### **6.	Handling missing values**
-
-<h2 align="center"> 
-
-![image](https://github.com/user-attachments/assets/0bc2128b-c385-4d77-b15e-6ff014ba7eaa)
-
-<h2 align="center"> <small>FIGURE 6.1 CLEANING THE DATASET </small> </h2>
-
-In Figure 6.1 shows how to perform accurate cleaning of data to correct inaccuracies and inconsistencies, ensuring high data quality. This process involves handling missing values, removing duplicates, and standardizing formats. Automating these tasks improves efficiency and accuracy, leading to more reliable insights for analysis and decision-making.
 
 # **MODEL IMPLEMENTATION**:
 
