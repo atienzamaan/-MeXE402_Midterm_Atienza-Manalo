@@ -163,10 +163,8 @@ This project utilizes Python libraries to perform data manipulation, preprocessi
 
 ### Making Predictions
 
-<h2 align="center">
 
 ![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
-
 
 
 - This line of code uses the trained model (`model`) to make a prediction on a new data point. The input to the `predict` method is a 2D array containing the values for the input features of the new data point. In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`. 
