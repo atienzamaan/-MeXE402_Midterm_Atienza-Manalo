@@ -188,20 +188,18 @@ This line of code trains the linear regression model (model) on the training dat
 This line of code uses the trained model (model) to make predictions on the testing set (X_test). The predict method takes the input features of the testing set as input and returns the corresponding predicted target values. These predicted values are stored in the variable y_pred. 
 
 
-<h2 align="center">
-
-![image](https://github.com/user-attachments/assets/d8f6bad8-f5cb-4b84-bf87-0f263ab81a22)
-
-![image](https://github.com/user-attachments/assets/ab59761b-dd77-4c7e-929c-5c5a5add3072)
-
-
-•  This line of code uses the trained model (model) to make a prediction on a new data point. The input to the predict method is a 2D array containing the values for the input features of the new data point. In this case, the values are: age = 32, gender = 1, education level = 1, job title = 177, and years of experience = 5. 
-
-•  Output: The predict method returns a predicted value, which in this case is 85745.79735184. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
+### Making Predictions
 
 <h2 align="center">
 
-![image](https://github.com/user-attachments/assets/23090e2d-4be9-42d6-b0cd-8bfcbee148b3)
+![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
+
+
+•  This line of code uses the trained model (model) to make a prediction on a new data point. The input to the predict method is a 2D array containing the values for the input features of the new data point. In this case, the values are: education level = 2, job title = 7, and years of experience = 5. 
+
+•  Output: The predict method returns a predicted value, which in this case is 92877.53123063. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
+
+
 
 
 
