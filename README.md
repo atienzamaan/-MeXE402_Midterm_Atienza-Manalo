@@ -266,8 +266,7 @@ Model Performance:
 
 ## Dataset Description
 - The dataset used is the Bank Marketing Dataset from a marketing campaign conducted by a Portuguese financial institution. It includes details about client attributes, previous marketing campaigns, and whether the client subscribed to a term deposit.
-
-### Key Features
+  
 - **Client-related features**:
   - `age`: The client's age.
   - `job`: Job type (categorical).
