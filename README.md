@@ -180,6 +180,10 @@ This line of code trains the linear regression model (model) on the training dat
  
 ![image](https://github.com/user-attachments/assets/8d3f4c14-6868-42c6-8c7e-03a4719aff1c)
 
+
+
+<h2 align="center">y_test:model.predict</small> </h2>
+
 This line of code uses the trained model (model) to make predictions on the testing set (X_test). The predict method takes the input features of the testing set as input and returns the corresponding predicted target values. These predicted values are stored in the variable y_pred. 
 
 
@@ -198,17 +202,6 @@ This line of code uses the trained model (model) to make predictions on the test
 
 ![image](https://github.com/user-attachments/assets/23090e2d-4be9-42d6-b0cd-8bfcbee148b3)
 
-
-
-This refers to using appropriate machine learning libraries to build and train the linear regression model. Commonly used libraries include:
-
-- o	Scikit-learn for linear regression.
-- o	Pandas and Numpy for data handling.
-- o	Label Encoder for transforming categorical labels into numerical values.
-
-Evaluation Metrics:
-- 	Calculate R-squared
--  Mean Squared Error
 
 
 ## **The Significance of Coefficients in the Salary Dataset**:
