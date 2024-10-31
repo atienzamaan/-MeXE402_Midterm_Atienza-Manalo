@@ -19,6 +19,64 @@ The objective of the Salary Dataset is to analyze the relationship between salar
 
 ## Data Preprocessing
 
+This guide outlines the preprocessing steps used to prepare data for analysis and predictions, especially for salary-based job categorization and predictions.
+
+## 1. Categorize Job Titles by Salary
+Organize job titles in order of salaries from highest to lowest, simplifying data for analysis and helping to identify discrepancies and patterns across roles within the organization.
+
+
+![image](https://github.com/user-attachments/assets/01b6e44b-0bb3-4818-9d14-311457efb18d)
+
+
+## 2. Convert Non-Numerical to Numerical Values
+Use Excel's "Find and Replace" or programming methods to convert non-numerical data such as job titles and education levels into numerical values. This enhances data consistency and improves prediction accuracy in linear regression models.
+
+![image](https://github.com/user-attachments/assets/55ddd932-ebe5-4241-bda6-039b81c31892)
+
+### Salary Range Mapping by Job Title:
+| Job Title    | Category Reference Value |
+|--------------|--------------------------|
+| Intern       | 1                        |
+| Entry Level  | 2                        |
+| Junior       | 3                        |
+| Associate    | 4                        |
+| Mid-Level    | 5                        |
+| Senior       | 6                        |
+| Lead         | 7                        |
+| Manager      | 8                        |
+| Director     | 9                        |
+| Executive    | 10                       |
+
+
+### Education Level Mapping:
+| Education Level | Reference Value |
+|-----------------|-----------------|
+| Highschool      | 1               |
+| Bachelor’s      | 2               |
+| Master’s        | 3               |
+| PhD             | 4               |
+
+## 3. Remove Irrelevant Variables
+To improve prediction accuracy, remove irrelevant data such as age and gender. This helps reduce potential bias and focuses the dataset on relevant information for analysis.
+
+![image](https://github.com/user-attachments/assets/cef660e9-a479-4495-8cf9-2d2a1969f6f8)
+
+## 4. Check for Missing Values
+During data preprocessing, examine rows and columns for missing values. Identify gaps to decide on handling methods, such as imputation, dropping, or interpolation, to improve data integrity.
+
+![image](https://github.com/user-attachments/assets/eaec1bb6-5731-4ec1-b96d-a4d1a1c2a618)
+
+## 5. Handle Missing Values
+Clean data by correcting inaccuracies and inconsistencies, handling missing values, removing duplicates, and standardizing formats. Automating these tasks enhances data quality, leading to more reliable insights.
+
+
+![image](https://github.com/user-attachments/assets/0bc2128b-c385-4d77-b15e-6ff014ba7eaa)
+---
+
+
+
+
+
 ### **1.	Categorize job titles according to salaries from highest to lowest**
    
  <h2 align="center"> 
