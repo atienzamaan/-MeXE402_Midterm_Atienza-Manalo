@@ -152,10 +152,6 @@ This project utilizes Python libraries to perform data manipulation, preprocessi
 
 <h2 align="center">y_test: Contains the target variable of the testing set..</small> </h2>
 
-
-
-![image](https://github.com/user-attachments/assets/6a57ca5d-b931-4293-82b0-acc77fa07227)
-
   - `LinearRegression`: Applies the linear regression model.
  
   ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
@@ -163,7 +159,6 @@ This project utilizes Python libraries to perform data manipulation, preprocessi
   - **R-squared and Adjusted R-squared**: Measures model accuracy.
 ![image](https://github.com/user-attachments/assets/38a211e0-dcb0-4f9c-8ce8-71e0a440c057)
 ![image](https://github.com/user-attachments/assets/21817ce6-2e5e-4333-a863-17ec92bdc6c2)
-
 
 
 ### Making Predictions
@@ -174,8 +169,10 @@ This project utilizes Python libraries to perform data manipulation, preprocessi
 
 
 
--This line of code uses the trained model (model) to make a prediction on a new data point. The input to the predict method is a 2D array containing the values for the input features of the new data point. In this case, the values are: education level = 2, job title = 7, and years of experience = 5. 
-- Output: The predict method returns a predicted value, which in this case is 92877.53123063. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
+- This line of code uses the trained model (`model`) to make a prediction on a new data point. The input to the `predict` method is a 2D array containing the values for the input features of the new data point. In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`. 
+
+- **Output**: The `predict` method returns a predicted value, which in this case is `92877.53123063`. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
+
 
 
 
