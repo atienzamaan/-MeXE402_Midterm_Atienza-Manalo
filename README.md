@@ -1,7 +1,7 @@
  # MeXE402_Midterm_Atienza-Manalo
 #### Both Linear Regression and Logistic Regression are foundational techniques in machine learning used for different types of problems. While they share similarities in their structure, they are applied to distinct tasks and have different mathematical foundations. This repository will serve as our midterm exam that is designed to assess our understanding of Linear Regression and Logistic Regression through practical application on real-world datasets.
 
-# Linear Regression
+# Linear Regression: Salary Data Analysis
 # **Introduction**
 Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
 ## Dataset Description
