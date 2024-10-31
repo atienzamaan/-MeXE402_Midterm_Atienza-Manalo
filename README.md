@@ -68,8 +68,7 @@ Figure 3.1 provides a comprehensive list of reference values associated with the
 
 Figure 4.1 demostrate that removing age and gender can improve data accuracy by eliminating irrelevant or potentially biased information. This streamlines the dataset, focusing only on relevant variables, which enhances model performance and leads to clearer insights.
 
-### **5.Check for missing values in each Rows and column. **
-
+### **5.Check for missing values in each Rows and column.**
 
 <h2 align="center"> 
 
@@ -173,6 +172,8 @@ This class provides a pre-built implementation of the linear regression algorith
 
 ![image](https://github.com/user-attachments/assets/99926d4e-bd5a-4de1-a547-a5ecf2f23af5)
 
+<h2 align="center">model.fit</small> </h2>
+
 This line of code trains the linear regression model (model) on the training data. The fit method is like a function that takes the training features (X_train) and the corresponding target variable (y_train) as input. It teaches the model the best way to relate the features to the target.
 
 
@@ -182,7 +183,7 @@ This line of code trains the linear regression model (model) on the training dat
 
 
 
-<h2 align="center">y_test:model.predict</small> </h2>
+<h2 align="center">model.predict</small> </h2>
 
 This line of code uses the trained model (model) to make predictions on the testing set (X_test). The predict method takes the input features of the testing set as input and returns the corresponding predicted target values. These predicted values are stored in the variable y_pred. 
 
