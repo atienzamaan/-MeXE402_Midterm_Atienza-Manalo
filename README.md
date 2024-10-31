@@ -288,9 +288,7 @@ The following libraries are used:
   ![Screenshot 2024-10-31 072741](https://github.com/user-attachments/assets/9bf3dead-3746-4dcf-9f9b-5bf388bd8753)
   </p>
   
-  ![Screenshot 2024-10-31 092057](https://github.com/user-attachments/assets/56d92dec-d624-44da-b547-aa3e02221f28)
-
-
+  ![image](https://github.com/user-attachments/assets/dd87d3b4-3c98-444d-911c-30af3403822a)
 
 
 - **Accuracy Score import from Sklearn**:
@@ -302,5 +300,5 @@ The following libraries are used:
 ## Discussion
 - Logistic regression is relatively simple and highly interpretable. By examining the model coefficients, we can determine the influence of each feature on the likelihood of a client subscribing. This interpretability is valuable for understanding the relationship between client characteristics and campaign success.
     </p>
-  With an accuracy of around 77.12%, the logistic regression model performs moderately well in predicting term deposit subscriptions. However, it has a noticeable rate of misclassification, specifically with false negatives. This can be a concern if the bank’s goal is to maximize subscription rates, as some clients who might subscribe could be missed by the model. Adjusting the model's focus depending on business priorities (either increasing recall for more true positives or precision to reduce false positives) can enhance its effectiveness in distinguishing between clients likely to subscribe and those who are not.
+  With an accuracy of around 77.12%, the logistic regression model performs moderately well in predicting term deposit subscriptions. However, it has a noticeable rate of misclassification, specifically with false negatives. This can be a concern if the bank’s goal is to maximize subscription rates, as some clients who might subscribe could be missed by the model. Adjusting the model's focus depending on business priorities can enhance its effectiveness in distinguishing between clients likely to subscribe and those who are not.
 
