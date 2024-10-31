@@ -158,7 +158,8 @@ This project utilizes libraries to perform data manipulation, preprocessing, and
 
 ### Making Predictions
 
-
+<h2 align="center">
+ 
 ![image](https://github.com/user-attachments/assets/05a5366e-6de5-461e-b25f-72d7fd23d477)
 
 
