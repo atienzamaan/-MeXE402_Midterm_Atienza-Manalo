@@ -259,33 +259,157 @@ Model Performance:
 
 ------
 
-## Logistic Regression 
-### **Introduction**
-#### **Dataset Description**
-##### The dataset used in this analysis is the **Bank Marketing Dataset** from a marketing campaign conducted by a Portuguese financial institution. The dataset contains information on client attributes, previous marketing campaign details, and whether the client subscribed to a term deposit.
+# Logistic Regression: Bank Marketing Campaign Analysis
 
-#### **Key Features**:
+## Introduction
+Logistic regression is a widely-used classification algorithm primarily applied to predict the probability of a binary outcome. This analysis uses logistic regression to forecast client behavior, specifically to predict whether a client will subscribe to a term deposit. The model explores relationships between client demographics, past campaign performance, and subscription likelihood.
+
+## Dataset Description
+The dataset used is the Bank Marketing Dataset from a marketing campaign conducted by a Portuguese financial institution. It includes details about client attributes, previous marketing campaigns, and whether the client subscribed to a term deposit.
+
+### Key Features
 - **Client-related features**:
-  - `age`: The age of the client.
-  - `job`: The type of job the client has (categorical).
-  - `marital`: The client’s marital status (categorical).
-  - `education`: The client’s level of education (ordinal).
-  
+  - `age`: The client's age.
+  - `job`: Job type (categorical).
+  - `marital`: Marital status (categorical).
+  - `education`: Education level (ordinal).
+  - `balance`: Account balance, indicating available savings.
+  - `housing`: Whether the client has a housing loan (binary).
+  - `loan`: Whether the client has a personal loan (binary).
+
 - **Campaign-related features**:
-  - `contact`: The type of communication used during the campaign.
-  - `previous`: Number of contacts performed before this campaign.
-  
+  - `duration`: Duration of the last call in seconds (indicator of engagement).
+  - `campaign`: Number of contacts made during the campaign.
+
 - **Output**:
-  - `y`: The target variable indicating whether the client subscribed to a term deposit (`yes` or `no`).
+  - `deposit` (target variable): Indicates if the client subscribed to a term deposit (`yes` or `no`).
 
-### **Objective of the Dataset**:
-The objective is to build a model to predict whether a client will subscribe to a term deposit based on the client’s attributes and the previous campaign's performance.
+### Objective
+The objective is to build a model that predicts whether a client will subscribe to a term deposit based on their attributes and previous campaign performance.
 
----
+## Analysis
+
+### Data Preprocessing
+1. **Handling Missing Values**:
+   - Identify and manage missing data by using methods like mean, median, or advanced techniques such as K-nearest neighbors.
+  <img alt = "Python" height="200" src="https://github.com/user-attachments/assets/28cd84d0-7ce0-4234-9d42-0d04c9b1729d">
+    <img alt = "Python" height="300" src="https://github.com/user-attachments/assets/e70fe7a8-d691-45dc-976e-cce1b994af5a">
+ </p>
+ 
+###
+2. **Label Encoding**:
+   - Assign unique numbers to categorical variables:
+     #### Job Categories
+     The following numerical values have been assigned to the job categories:
+     - **Student** = 1
+     - **Unemployed** = 2
+     - **Retired** = 3
+     - **Housemaid** = 4
+     - **Blue-collar** = 5
+     - **Services** = 6
+     - **Technician** = 7
+     - **Admin.** = 8
+     - **Self-employed** = 9
+     - **Management** = 10
+     - **Entrepreneur** = 11
+
+     #### Marital Status
+     The marital status categories are encoded as follows:
+     - **Married** = 3
+     - **Single** = 2
+     - **Divorced** = 1
+     #### Housing Status
+     The housing status is represented by:
+     - **Yes** = 1
+     - **No** = 0
+     #### Loan Status
+     The loan status is encoded as:
+     - **Yes** = 1
+     - **No** = 0
+     #### Deposit Subscription
+     The deposit subscription status is represented by:
+     - **Yes** = 1
+     - **No** = 0
+
+### Model Implementation
+The following libraries are used:
+- **Pandas** (`import pandas as pd`):
+  - Data manipulation and analysis, especially for reading, inspecting, and cleaning the dataset.
+  - **Functions**:
+    - `pd.read_csv()`: Loads the dataset.
+      ![image](https://github.com/user-attachments/assets/ef6abf66-757d-4efe-aa2d-d96913640c39)
+      ![image](https://github.com/user-attachments/assets/d7aeaaa2-fc9a-471b-9e06-20e05c1c1e1d)
+
+
+    - `dataset.isnull()`: Checks for missing values.
+      ![image](https://github.com/user-attachments/assets/b57f2a6f-7f7d-4c55-a61b-7b11be968ad0)
+
+    - `fillna()`: Fills missing values.
+      ![image](https://github.com/user-attachments/assets/6a16790c-6223-4bc7-947a-e12058cc4dbd)
+
+    - `to_csv()`: Saves the cleaned dataset.
+      ![image](https://github.com/user-attachments/assets/6af16652-28e1-46c1-888e-cd8cc132cff7)
+
+
+- **Scikit-Learn**:
+  - A machine learning library for preprocessing and modeling.
+  - **Functions**:
+    - `LabelEncoder`: Encodes categorical variables numerically.
+      ![image](https://github.com/user-attachments/assets/0d86d4fa-d9a6-4d4c-a82f-f692367abd13)
+
+    - `train_test_split`: Splits the dataset into training and testing sets.
+      ![image](https://github.com/user-attachments/assets/678a95ec-4f0e-43c0-8ce3-c9fe27ff7830)
+
+    - `StandardScaler`: Standardizes input features.
+      ![image](https://github.com/user-attachments/assets/88e2602c-0c62-4a34-ad6d-29bd22e6436f)
+
+    - `LogisticRegression`: Provides the logistic regression model.
+      ![image](https://github.com/user-attachments/assets/694106e0-e569-40a2-92d0-dc444851fa75)
+
+    - `confusion_matrix`, `accuracy_score`: Calculates model accuracy and displays the confusion matrix.
+      ![image](https://github.com/user-attachments/assets/8d85bc28-7f79-4376-923e-6e359f1827bd)
+      ![image](https://github.com/user-attachments/assets/aa95a74d-06e5-4993-9750-a6063e7e9b0f)
+
+
+
+- **Matplotlib** (`import matplotlib.pyplot as plt`):
+  - For data visualization, particularly for displaying the confusion matrix.
+- **Seaborn** (`import seaborn as sns`):
+  - A visualization library for creating heatmaps to visualize the confusion matrix.
+ ![image](https://github.com/user-attachments/assets/2aaf4344-1b71-4080-bdb4-ca6c72aa9b75)
+
+
+### Making Predictions
+- The model can make predictions on individual data points to assess whether a client is likely to subscribe to a term deposit.
+![Screenshot 2024-10-31 072203](https://github.com/user-attachments/assets/936c7677-9cf1-42c5-9a5a-191c671d2b0c)
+![Screenshot 2024-10-31 072407](https://github.com/user-attachments/assets/6d3464e7-0cda-4255-b68f-829510a19497)
+
+## Results
+### Model Evaluation
+- **Confusion Matrix**: Helps identify false positives and false negatives, important for understanding model performance.
+<img align="center" src="https://github.com/user-attachments/assets/7d50172a-17b5-4ced-86b2-b9fa02e12343">
+</p>
+
+### 
+- **Accuracy Formula**:
+  </p>
+  
+  ![Screenshot 2024-10-31 072741](https://github.com/user-attachments/assets/9bf3dead-3746-4dcf-9f9b-5bf388bd8753)
+  </p>
+  
+  ![Screenshot 2024-10-31 092057](https://github.com/user-attachments/assets/56d92dec-d624-44da-b547-aa3e02221f28)
 
 
 
 
-##### Explanation
-![image](https://github.com/user-attachments/assets/be9096cd-e27a-44e2-b681-33ca4e35f352)
-##### Project Objectives:
+- **Accuracy Score import from Sklearn**:
+ ![Screenshot 2024-10-31 072828](https://github.com/user-attachments/assets/bf8d7bbb-b4e8-4260-a4de-9bec25a94ff9)
+  - The model achieved an accuracy score of approximately 77.12%, indicating moderate effectiveness in predicting term deposit subscriptions.
+ 
+
+
+## Discussion
+- Logistic regression is relatively simple and highly interpretable. By examining the model coefficients, we can determine the influence of each feature on the likelihood of a client subscribing. This interpretability is valuable for understanding the relationship between client characteristics and campaign success.
+    </p>
+  With an accuracy of around 77.12%, the logistic regression model performs moderately well in predicting term deposit subscriptions. However, it has a noticeable rate of misclassification, specifically with false negatives. This can be a concern if the bank’s goal is to maximize subscription rates, as some clients who might subscribe could be missed by the model. Adjusting the model's focus depending on business priorities (either increasing recall for more true positives or precision to reduce false positives) can enhance its effectiveness in distinguishing between clients likely to subscribe and those who are not.
+
