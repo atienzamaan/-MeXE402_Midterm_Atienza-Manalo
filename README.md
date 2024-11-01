@@ -130,6 +130,14 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
   
 ![image](https://github.com/user-attachments/assets/d712c426-d1da-4fa9-b525-90b04d048386)
 
+- **Matplotlib** (`import matplotlib.pyplot as plt`):
+  - For data visualization, particularly for displaying the confusion matrix.
+ 
+   <h2 align="center">
+ 
+ ![image](https://github.com/user-attachments/assets/09f9b569-1ec7-4f0e-9bc3-97b5608ccaa4)
+
+
 ### Making Predictions
 - This line of code uses the trained model (`model`) to make a prediction on a new data point.  In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`.  The `predict` method returns a predicted value, which in this case is `92877.53123063`. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
 
@@ -150,6 +158,9 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 ### Interpretation
 
 - The high R² and Adjusted R² values around 92% imply that model has strong predictive power. It captures almost all the variability in salary, leaving only about 8% unexplained, which could be due to factors not included in the model, such as industry type, company size, performance incentives, or location.In regression models, the coefficients represent the effect of each independent variable on the dependent variable. Each coefficient tells how much the dependent variable is expected to change when that particular independent variable increases by one unit while holding all other variables constant.
+
+![image](https://github.com/user-attachments/assets/cb8fda32-e35e-47cd-a2d8-98dfc5d2c173)
+
 
 ---------------------
 # Logistic Regression: Bank Marketing Campaign Analysis
