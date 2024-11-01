@@ -124,25 +124,29 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 
 - **LinearRegression**:Applies the linear regression model.
   
-   <h2 align="center">
+   <h4 align="center">
     
   ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
 
+  </h2>
+
 - **R-squared and Adjusted R-squared**: Measures model accuracy.
   
-<h2 align="center">
+<h4 align="center">
  
 ![image](https://github.com/user-attachments/assets/d712c426-d1da-4fa9-b525-90b04d048386)
+
+  </h2>
 
 - **Matplotlib** (`import matplotlib.pyplot as plt`):
   
 - For data visualization, particularly for displaying the confusion matrix.
-- 
-  <h2 align="center">
+  
+  <h4 align="center">
  
  ![image](https://github.com/user-attachments/assets/09f9b569-1ec7-4f0e-9bc3-97b5608ccaa4)
 
-
+  </h2>
 ### Making Predictions
 - This line of code uses the trained model (`model`) to make a prediction on a new data point.  In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`.  The `predict` method returns a predicted value, which in this case is `92877.53123063`. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
 
