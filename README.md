@@ -147,6 +147,8 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
  ![image](https://github.com/user-attachments/assets/09f9b569-1ec7-4f0e-9bc3-97b5608ccaa4)
 
   </h2>
+
+  
 ### Making Predictions
 - This line of code uses the trained model (`model`) to make a prediction on a new data point.  In this case, the values are: `education level = 2`, `job title = 7`, and `years of experience = 5`.  The `predict` method returns a predicted value, which in this case is `92877.53123063`. This predicted value represents the estimated salary for the given data point based on the model's learned relationship between the input features and the target variable.
 
