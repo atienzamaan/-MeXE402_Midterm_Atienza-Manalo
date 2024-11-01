@@ -138,15 +138,13 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 
   </h2>
 
-- **Matplotlib** (`import matplotlib.pyplot as plt`):
-  
-- For data visualization, particularly for displaying the confusion matrix.
-  
-  <h4 align="center">
+- **Matplotlib** (`import matplotlib.pyplot as plt`):For data visualization, particularly for displaying the confusion matrix.
+   
+  <h2 align="center">
  
  ![image](https://github.com/user-attachments/assets/09f9b569-1ec7-4f0e-9bc3-97b5608ccaa4)
 
-  </h2>
+ 
 
   
 ### Making Predictions
