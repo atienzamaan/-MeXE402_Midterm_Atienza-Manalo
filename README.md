@@ -116,19 +116,27 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 
 <h4 align="center">y_test: Contains the target variable of the testing set.</small></h2>
 
+<h2 align="center">
+
 ![image](https://github.com/user-attachments/assets/04200141-d4e5-4e4d-ae1d-94b97754f686)
 
 - **LinearRegression**:Applies the linear regression model.
-   
+  
+   <h2 align="center">
+    
   ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
 
 - **R-squared and Adjusted R-squared**: Measures model accuracy.
-
+  
+<h2 align="center">
+ 
 ![image](https://github.com/user-attachments/assets/d712c426-d1da-4fa9-b525-90b04d048386)
 
 - **Matplotlib** (`import matplotlib.pyplot as plt`):
   
 - For data visualization, particularly for displaying the confusion matrix.
+- 
+  <h2 align="center">
  
  ![image](https://github.com/user-attachments/assets/09f9b569-1ec7-4f0e-9bc3-97b5608ccaa4)
 
