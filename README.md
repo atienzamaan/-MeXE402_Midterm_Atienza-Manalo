@@ -114,8 +114,7 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 ![image](https://github.com/user-attachments/assets/fc73a1a5-a60b-4e6d-a13f-c344a3fb0e19)
 
 
-<h4 align="center">y_test: Contains the target variable of the testing set..</small> </h2>
-<h2 align="center">
+<h4 align="center">y_test: Contains the target variable of the testing set..</small> 
 
 ![image](https://github.com/user-attachments/assets/04200141-d4e5-4e4d-ae1d-94b97754f686)
 
@@ -131,6 +130,7 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 ![image](https://github.com/user-attachments/assets/d712c426-d1da-4fa9-b525-90b04d048386)
 
 - **Matplotlib** (`import matplotlib.pyplot as plt`):
+  
   - For data visualization, particularly for displaying the confusion matrix.
  
    <h2 align="center">
