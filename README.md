@@ -114,12 +114,12 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 ![image](https://github.com/user-attachments/assets/fc73a1a5-a60b-4e6d-a13f-c344a3fb0e19)
 
 
-<h4 align="center">y_test: Contains the target variable of the testing set..</small> 
+<h4 align="center">y_test: Contains the target variable of the testing set.</small></h2>
 
 ![image](https://github.com/user-attachments/assets/04200141-d4e5-4e4d-ae1d-94b97754f686)
 
-- `LinearRegression`: Applies the linear regression model.
- 
+- **LinearRegression**:Applies the linear regression model.
+   
   ![image](https://github.com/user-attachments/assets/dab7521e-709d-4515-a6e9-981329eaa4d9)
 
 - **R-squared and Adjusted R-squared**: Measures model accuracy.
