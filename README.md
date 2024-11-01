@@ -116,9 +116,11 @@ Both Linear Regression and Logistic Regression are foundational techniques in ma
 
 <h4 align="center">y_test: Contains the target variable of the testing set.</small></h2>
 
-<h2 align="center">
+<h4 align="center">
 
 ![image](https://github.com/user-attachments/assets/04200141-d4e5-4e4d-ae1d-94b97754f686)
+
+</h2>
 
 - **LinearRegression**:Applies the linear regression model.
   
