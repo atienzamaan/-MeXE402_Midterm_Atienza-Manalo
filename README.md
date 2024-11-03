@@ -322,7 +322,7 @@ The following libraries are used:
     </p>
   With an accuracy of around 77.12%, the logistic regression model performs moderately well in predicting term deposit subscriptions. However, it has a noticeable rate of misclassification, specifically with false negatives. This can be a concern if the bank’s goal is to maximize subscription rates, as some clients who might subscribe could be missed by the model. Adjusting the model's focus depending on business priorities can enhance its effectiveness in distinguishing between clients likely to subscribe and those who are not.
 
-## Datasets
+## Datasets References
 
 The datasets used in this project are available on Kaggle:
 
